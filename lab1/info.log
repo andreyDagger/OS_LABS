@@ -1,0 +1,1176 @@
+Sep 20 17:31:49 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695231109.2654] device (lo): carrier: link connected
+Sep 20 17:31:49 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695231109.2657] manager: (lo): new Generic device (/org/freedesktop/NetworkManager/Devices/1)
+Sep 20 17:31:49 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695231109.2667] manager: (enp3s0): new Ethernet device (/org/freedesktop/NetworkManager/Devices/2)
+Sep 20 17:31:49 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695231109.2688] settings: (enp3s0): created default wired connection 'Wired connection 1'
+Sep 20 17:31:49 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695231109.2693] device (enp3s0): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'external')
+Sep 20 17:31:49 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695231109.5011] device (wlo1): driver supports Access Point (AP) mode
+Sep 20 17:31:49 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695231109.5016] manager: (wlo1): new 802.11 Wi-Fi device (/org/freedesktop/NetworkManager/Devices/3)
+Sep 20 17:31:49 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695231109.5024] device (wlo1): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'external')
+Sep 20 17:31:49 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695231109.7088] modem-manager: ModemManager available
+Sep 20 17:31:49 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695231109.7092] supplicant: wpa_supplicant running
+Sep 20 17:31:49 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695231109.7093] device (wlo1): supplicant interface state: init -> starting
+Sep 20 17:31:49 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695231109.7661] sup-iface[0x56176b21f900,wlo1]: supports 5 scan SSIDs
+Sep 20 17:31:49 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695231109.7667] device (wlo1): supplicant interface state: starting -> ready
+Sep 20 17:31:49 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695231109.7667] Wi-Fi P2P device controlled by interface wlo1 created
+Sep 20 17:31:49 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695231109.7670] manager: (p2p-dev-wlo1): new 802.11 Wi-Fi P2P device (/org/freedesktop/NetworkManager/Devices/4)
+Sep 20 17:31:49 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695231109.7672] device (p2p-dev-wlo1): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'external')
+Sep 20 17:31:49 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695231109.7678] device (p2p-dev-wlo1): state change: unavailable -> disconnected (reason 'none', sys-iface-state: 'managed')
+Sep 20 17:31:49 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695231109.7680] device (wlo1): state change: unavailable -> disconnected (reason 'supplicant-available', sys-iface-state: 'managed')
+Sep 20 17:31:51 andrey-GF63-Thin-9SCXR ModemManager[1027]: <info>  [base-manager] couldn't check support for device '/sys/devices/pci0000:00/0000:00:14.3': not supported by any plugin
+Sep 20 17:31:51 andrey-GF63-Thin-9SCXR ModemManager[1027]: <info>  [base-manager] couldn't check support for device '/sys/devices/pci0000:00/0000:00:1d.4/0000:03:00.0': not supported by any plugin
+Sep 20 17:31:52 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695231112.8842] policy: auto-activating connection 'TP-Link_B850_5G' (0df0f2ab-97ed-4493-ad46-ed22e9388725)
+Sep 20 17:31:52 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695231112.8845] device (wlo1): Activation: starting connection 'TP-Link_B850_5G' (0df0f2ab-97ed-4493-ad46-ed22e9388725)
+Sep 20 17:31:52 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695231112.8846] device (wlo1): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Sep 20 17:31:52 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695231112.8848] manager: NetworkManager state is now CONNECTING
+Sep 20 17:31:52 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695231112.8851] device (wlo1): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Sep 20 17:31:52 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695231112.8853] device (wlo1): Activation: (wifi) access point 'TP-Link_B850_5G' has security, but secrets are required.
+Sep 20 17:31:52 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695231112.8853] device (wlo1): state change: config -> need-auth (reason 'none', sys-iface-state: 'managed')
+Sep 20 17:31:52 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695231112.8855] sup-iface[0x56176b21f900,wlo1]: wps: type pbc start...
+Sep 20 17:31:52 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695231112.8885] device (wlo1): state change: need-auth -> prepare (reason 'none', sys-iface-state: 'managed')
+Sep 20 17:31:52 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695231112.8888] device (wlo1): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Sep 20 17:31:52 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695231112.8890] device (wlo1): Activation: (wifi) connection 'TP-Link_B850_5G' has security, and secrets exist.  No new secrets needed.
+Sep 20 17:31:52 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695231112.8890] Config: added 'ssid' value 'TP-Link_B850_5G'
+Sep 20 17:31:52 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695231112.8890] Config: added 'scan_ssid' value '1'
+Sep 20 17:31:52 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695231112.8890] Config: added 'bgscan' value 'simple:30:-70:86400'
+Sep 20 17:31:52 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695231112.8890] Config: added 'key_mgmt' value 'WPA-PSK WPA-PSK-SHA256 FT-PSK'
+Sep 20 17:31:52 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695231112.8890] Config: added 'auth_alg' value 'OPEN'
+Sep 20 17:31:52 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695231112.8891] Config: added 'psk' value '<hidden>'
+Sep 20 17:31:52 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695231112.8984] device (wlo1): supplicant interface state: ready -> authenticating
+Sep 20 17:31:52 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695231112.8984] device (p2p-dev-wlo1): supplicant management interface state: ready -> authenticating
+Sep 20 17:31:53 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695231113.0367] device (wlo1): supplicant interface state: authenticating -> associating
+Sep 20 17:31:53 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695231113.0368] device (p2p-dev-wlo1): supplicant management interface state: authenticating -> associating
+Sep 20 17:31:53 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695231113.0535] device (wlo1): supplicant interface state: associating -> 4-way handshake
+Sep 20 17:31:53 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695231113.0536] device (p2p-dev-wlo1): supplicant management interface state: associating -> 4-way handshake
+Sep 20 17:31:53 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695231113.1519] device (wlo1): supplicant interface state: 4-way handshake -> completed
+Sep 20 17:31:53 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695231113.1520] device (wlo1): Activation: (wifi) Stage 2 of 5 (Device Configure) successful. Connected to wireless network "TP-Link_B850_5G"
+Sep 20 17:31:53 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695231113.1520] device (p2p-dev-wlo1): supplicant management interface state: 4-way handshake -> completed
+Sep 20 17:31:53 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695231113.1525] device (wlo1): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Sep 20 17:31:53 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695231113.1536] dhcp4 (wlo1): activation: beginning transaction (timeout in 45 seconds)
+Sep 20 17:31:53 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695231113.1639] dhcp4 (wlo1): option dhcp_lease_time      => '86400'
+Sep 20 17:31:53 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695231113.1640] dhcp4 (wlo1): option domain_name_servers  => '192.168.1.1 0.0.0.0'
+Sep 20 17:31:53 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695231113.1640] dhcp4 (wlo1): option expiry               => '1695317513'
+Sep 20 17:31:53 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695231113.1640] dhcp4 (wlo1): option ip_address           => '192.168.1.101'
+Sep 20 17:31:53 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695231113.1640] dhcp4 (wlo1): option requested_broadcast_address => '1'
+Sep 20 17:31:53 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695231113.1640] dhcp4 (wlo1): option requested_domain_name => '1'
+Sep 20 17:31:53 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695231113.1641] dhcp4 (wlo1): option requested_domain_name_servers => '1'
+Sep 20 17:31:53 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695231113.1641] dhcp4 (wlo1): option requested_domain_search => '1'
+Sep 20 17:31:53 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695231113.1641] dhcp4 (wlo1): option requested_host_name  => '1'
+Sep 20 17:31:53 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695231113.1642] dhcp4 (wlo1): option requested_interface_mtu => '1'
+Sep 20 17:31:53 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695231113.1642] dhcp4 (wlo1): option requested_ms_classless_static_routes => '1'
+Sep 20 17:31:53 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695231113.1642] dhcp4 (wlo1): option requested_nis_domain => '1'
+Sep 20 17:31:53 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695231113.1642] dhcp4 (wlo1): option requested_nis_servers => '1'
+Sep 20 17:31:53 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695231113.1642] dhcp4 (wlo1): option requested_ntp_servers => '1'
+Sep 20 17:31:53 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695231113.1643] dhcp4 (wlo1): option requested_rfc3442_classless_static_routes => '1'
+Sep 20 17:31:53 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695231113.1643] dhcp4 (wlo1): option requested_root_path  => '1'
+Sep 20 17:31:53 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695231113.1643] dhcp4 (wlo1): option requested_routers    => '1'
+Sep 20 17:31:53 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695231113.1644] dhcp4 (wlo1): option requested_static_routes => '1'
+Sep 20 17:31:53 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695231113.1644] dhcp4 (wlo1): option requested_subnet_mask => '1'
+Sep 20 17:31:53 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695231113.1644] dhcp4 (wlo1): option requested_time_offset => '1'
+Sep 20 17:31:53 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695231113.1644] dhcp4 (wlo1): option requested_wpad       => '1'
+Sep 20 17:31:53 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695231113.1644] dhcp4 (wlo1): option routers              => '192.168.1.1'
+Sep 20 17:31:53 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695231113.1645] dhcp4 (wlo1): option subnet_mask          => '255.255.255.0'
+Sep 20 17:31:53 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695231113.1645] dhcp4 (wlo1): state changed unknown -> bound
+Sep 20 17:31:53 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695231113.1680] device (wlo1): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Sep 20 17:31:53 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695231113.1738] device (wlo1): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Sep 20 17:31:53 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695231113.1743] device (wlo1): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Sep 20 17:31:53 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695231113.1753] manager: NetworkManager state is now CONNECTED_LOCAL
+Sep 20 17:31:53 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695231113.1806] manager: NetworkManager state is now CONNECTED_SITE
+Sep 20 17:31:53 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695231113.1810] policy: set 'TP-Link_B850_5G' (wlo1) as default for IPv4 routing and DNS
+Sep 20 17:31:53 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695231113.1828] device (wlo1): Activation: successful, device activated.
+Sep 20 17:31:54 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695231114.3347] manager: NetworkManager state is now CONNECTED_GLOBAL
+Sep 20 17:31:55 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695231115.0685] dhcp6 (wlo1): activation: beginning transaction (timeout in 45 seconds)
+Sep 20 17:31:55 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695231115.5008] manager: startup complete
+Sep 20 17:31:55 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695231115.7895] manager: (docker0): new Bridge device (/org/freedesktop/NetworkManager/Devices/5)
+Sep 20 17:31:55 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695231115.8152] device (docker0): state change: unmanaged -> unavailable (reason 'connection-assumed', sys-iface-state: 'external')
+Sep 20 17:31:55 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695231115.8183] device (docker0): state change: unavailable -> disconnected (reason 'connection-assumed', sys-iface-state: 'external')
+Sep 20 17:31:55 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695231115.8191] device (docker0): Activation: starting connection 'docker0' (f988607e-b836-489d-ae35-004a34827e25)
+Sep 20 17:31:55 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695231115.8196] manager: (br-942de2a97bf0): new Bridge device (/org/freedesktop/NetworkManager/Devices/6)
+Sep 20 17:31:55 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695231115.8201] device (docker0): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'external')
+Sep 20 17:31:55 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695231115.8205] device (docker0): state change: prepare -> config (reason 'none', sys-iface-state: 'external')
+Sep 20 17:31:55 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695231115.8207] device (docker0): state change: config -> ip-config (reason 'none', sys-iface-state: 'external')
+Sep 20 17:31:55 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695231115.8210] device (docker0): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'external')
+Sep 20 17:31:55 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695231115.8250] device (docker0): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'external')
+Sep 20 17:31:55 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695231115.8252] device (docker0): state change: secondaries -> activated (reason 'none', sys-iface-state: 'external')
+Sep 20 17:31:55 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695231115.8262] device (docker0): Activation: successful, device activated.
+Sep 20 17:31:55 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695231115.8371] device (br-942de2a97bf0): state change: unmanaged -> unavailable (reason 'connection-assumed', sys-iface-state: 'external')
+Sep 20 17:31:55 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695231115.8397] device (br-942de2a97bf0): state change: unavailable -> disconnected (reason 'connection-assumed', sys-iface-state: 'external')
+Sep 20 17:31:55 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695231115.8405] device (br-942de2a97bf0): Activation: starting connection 'br-942de2a97bf0' (23a5d5e3-5c8b-4258-ab43-d9185c793162)
+Sep 20 17:31:55 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695231115.8410] manager: (br-1d9a8f9519f6): new Bridge device (/org/freedesktop/NetworkManager/Devices/7)
+Sep 20 17:31:55 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695231115.8414] device (br-942de2a97bf0): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'external')
+Sep 20 17:31:55 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695231115.8419] device (br-942de2a97bf0): state change: prepare -> config (reason 'none', sys-iface-state: 'external')
+Sep 20 17:31:55 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695231115.8425] device (br-942de2a97bf0): state change: config -> ip-config (reason 'none', sys-iface-state: 'external')
+Sep 20 17:31:55 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695231115.8429] device (br-942de2a97bf0): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'external')
+Sep 20 17:31:55 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695231115.8464] device (br-942de2a97bf0): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'external')
+Sep 20 17:31:55 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695231115.8466] device (br-942de2a97bf0): state change: secondaries -> activated (reason 'none', sys-iface-state: 'external')
+Sep 20 17:31:55 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695231115.8477] device (br-942de2a97bf0): Activation: successful, device activated.
+Sep 20 17:31:55 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695231115.8632] device (br-1d9a8f9519f6): state change: unmanaged -> unavailable (reason 'connection-assumed', sys-iface-state: 'external')
+Sep 20 17:31:55 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695231115.8659] device (br-1d9a8f9519f6): state change: unavailable -> disconnected (reason 'connection-assumed', sys-iface-state: 'external')
+Sep 20 17:31:55 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695231115.8665] device (br-1d9a8f9519f6): Activation: starting connection 'br-1d9a8f9519f6' (a1e30e13-60e8-4b24-9105-7bfe71c8ac68)
+Sep 20 17:31:55 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695231115.8667] device (br-1d9a8f9519f6): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'external')
+Sep 20 17:31:55 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695231115.8671] device (br-1d9a8f9519f6): state change: prepare -> config (reason 'none', sys-iface-state: 'external')
+Sep 20 17:31:55 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695231115.8673] device (br-1d9a8f9519f6): state change: config -> ip-config (reason 'none', sys-iface-state: 'external')
+Sep 20 17:31:55 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695231115.8674] device (br-1d9a8f9519f6): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'external')
+Sep 20 17:31:55 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695231115.8691] device (br-1d9a8f9519f6): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'external')
+Sep 20 17:31:55 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695231115.8693] device (br-1d9a8f9519f6): state change: secondaries -> activated (reason 'none', sys-iface-state: 'external')
+Sep 20 17:31:55 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695231115.8703] device (br-1d9a8f9519f6): Activation: successful, device activated.
+Sep 20 17:31:55 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695231115.9228] manager: (vethbaf1251): new Veth device (/org/freedesktop/NetworkManager/Devices/8)
+Sep 20 17:31:55 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695231115.9241] manager: (vethda69b67): new Veth device (/org/freedesktop/NetworkManager/Devices/9)
+Sep 20 17:31:56 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695231116.3292] device (vethda69b67): carrier: link connected
+Sep 20 17:31:56 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695231116.3305] device (br-942de2a97bf0): carrier: link connected
+Sep 20 17:32:07 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695231127.5834] agent-manager: agent[11c6f62f02fa4852,:1.88/org.gnome.Shell.NetworkAgent/1000]: agent registered
+Sep 20 17:32:40 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695231160.8081] dhcp6 (wlo1): state changed unknown -> timeout
+Sep 20 18:33:27 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695234807.2983] device (wlo1): supplicant interface state: completed -> disconnected
+Sep 20 18:33:27 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695234807.2983] device (p2p-dev-wlo1): supplicant management interface state: completed -> disconnected
+Sep 20 18:33:27 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695234807.3573] device (wlo1): supplicant interface state: disconnected -> scanning
+Sep 20 18:33:27 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695234807.3574] device (p2p-dev-wlo1): supplicant management interface state: disconnected -> scanning
+Sep 20 18:33:29 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695234809.1794] device (wlo1): supplicant interface state: scanning -> authenticating
+Sep 20 18:33:29 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695234809.1794] device (p2p-dev-wlo1): supplicant management interface state: scanning -> authenticating
+Sep 20 18:33:29 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695234809.2148] device (wlo1): supplicant interface state: authenticating -> associating
+Sep 20 18:33:29 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695234809.2148] device (p2p-dev-wlo1): supplicant management interface state: authenticating -> associating
+Sep 20 18:33:29 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695234809.3006] device (wlo1): supplicant interface state: associating -> completed
+Sep 20 18:33:29 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695234809.3018] device (p2p-dev-wlo1): supplicant management interface state: associating -> completed
+Sep 20 18:38:44 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695235124.0530] device (wlo1): supplicant interface state: completed -> disconnected
+Sep 20 18:38:44 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695235124.0530] device (p2p-dev-wlo1): supplicant management interface state: completed -> disconnected
+Sep 20 18:38:45 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695235125.6257] device (wlo1): supplicant interface state: disconnected -> authenticating
+Sep 20 18:38:45 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695235125.6258] device (p2p-dev-wlo1): supplicant management interface state: disconnected -> authenticating
+Sep 20 18:38:45 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695235125.6713] device (wlo1): supplicant interface state: authenticating -> associating
+Sep 20 18:38:45 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695235125.6713] device (p2p-dev-wlo1): supplicant management interface state: authenticating -> associating
+Sep 20 18:38:45 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695235125.7259] device (wlo1): supplicant interface state: associating -> completed
+Sep 20 18:38:45 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695235125.7264] device (p2p-dev-wlo1): supplicant management interface state: associating -> completed
+Sep 20 18:38:46 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695235126.3751] device (wlo1): supplicant interface state: completed -> disconnected
+Sep 20 18:38:46 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695235126.3752] device (p2p-dev-wlo1): supplicant management interface state: completed -> disconnected
+Sep 20 18:38:46 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695235126.4371] device (wlo1): supplicant interface state: disconnected -> scanning
+Sep 20 18:38:46 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695235126.4372] device (p2p-dev-wlo1): supplicant management interface state: disconnected -> scanning
+Sep 20 18:38:47 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695235127.8420] device (wlo1): supplicant interface state: scanning -> authenticating
+Sep 20 18:38:47 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695235127.8420] device (p2p-dev-wlo1): supplicant management interface state: scanning -> authenticating
+Sep 20 18:38:47 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695235127.8882] device (wlo1): supplicant interface state: authenticating -> associating
+Sep 20 18:38:47 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695235127.8882] device (p2p-dev-wlo1): supplicant management interface state: authenticating -> associating
+Sep 20 18:38:47 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695235127.9777] device (wlo1): supplicant interface state: associating -> completed
+Sep 20 18:38:47 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695235127.9820] device (p2p-dev-wlo1): supplicant management interface state: associating -> completed
+Sep 20 18:38:48 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695235128.5777] device (wlo1): supplicant interface state: completed -> disconnected
+Sep 20 18:38:48 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695235128.5777] device (p2p-dev-wlo1): supplicant management interface state: completed -> disconnected
+Sep 20 18:38:48 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695235128.6518] device (wlo1): supplicant interface state: disconnected -> scanning
+Sep 20 18:38:48 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695235128.6519] device (p2p-dev-wlo1): supplicant management interface state: disconnected -> scanning
+Sep 20 18:38:50 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695235130.0586] device (wlo1): supplicant interface state: scanning -> authenticating
+Sep 20 18:38:50 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695235130.0587] device (p2p-dev-wlo1): supplicant management interface state: scanning -> authenticating
+Sep 20 18:38:50 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695235130.1028] device (wlo1): supplicant interface state: authenticating -> associating
+Sep 20 18:38:50 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695235130.1029] device (p2p-dev-wlo1): supplicant management interface state: authenticating -> associating
+Sep 20 18:38:50 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695235130.1835] device (wlo1): supplicant interface state: associating -> completed
+Sep 20 18:38:50 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695235130.1840] device (p2p-dev-wlo1): supplicant management interface state: associating -> completed
+Sep 20 19:59:24 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695239964.2168] agent-manager: agent[66edb08791ad80fb,:1.88/org.gnome.Shell.NetworkAgent/1000]: agent registered
+Sep 20 22:47:14 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695250034.8054] manager: NetworkManager state is now CONNECTED_SITE
+Sep 20 22:47:15 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695250035.1648] manager: NetworkManager state is now CONNECTED_GLOBAL
+Sep 20 23:12:44 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695251564.5820] device (wlo1): supplicant interface state: completed -> disconnected
+Sep 20 23:12:44 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695251564.5820] device (p2p-dev-wlo1): supplicant management interface state: completed -> disconnected
+Sep 20 23:12:44 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695251564.6424] device (wlo1): supplicant interface state: disconnected -> scanning
+Sep 20 23:12:44 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695251564.6424] device (p2p-dev-wlo1): supplicant management interface state: disconnected -> scanning
+Sep 20 23:12:47 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695251567.6790] device (wlo1): supplicant interface state: scanning -> authenticating
+Sep 20 23:12:47 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695251567.6791] device (p2p-dev-wlo1): supplicant management interface state: scanning -> authenticating
+Sep 20 23:12:47 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695251567.7171] device (wlo1): supplicant interface state: authenticating -> associating
+Sep 20 23:12:47 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695251567.7172] device (p2p-dev-wlo1): supplicant management interface state: authenticating -> associating
+Sep 20 23:12:47 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695251567.7769] device (wlo1): supplicant interface state: associating -> completed
+Sep 20 23:12:47 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695251567.7786] device (p2p-dev-wlo1): supplicant management interface state: associating -> completed
+Sep 20 23:26:42 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695252402.4377] agent-manager: agent[4e81cd2f0a902798,:1.88/org.gnome.Shell.NetworkAgent/1000]: agent registered
+Sep 20 23:55:10 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695254110.5171] manager: sleep: sleep requested (sleeping: no  enabled: yes)
+Sep 20 23:55:10 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695254110.5174] device (enp3s0): state change: unavailable -> unmanaged (reason 'sleeping', sys-iface-state: 'managed')
+Sep 20 23:55:10 andrey-GF63-Thin-9SCXR ModemManager[1027]: <info>  [sleep-monitor] system is about to suspend
+Sep 20 23:55:10 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695254110.5338] device (p2p-dev-wlo1): state change: disconnected -> unmanaged (reason 'sleeping', sys-iface-state: 'managed')
+Sep 20 23:55:10 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695254110.5349] manager: NetworkManager state is now ASLEEP
+Sep 20 23:55:10 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695254110.5354] device (wlo1): state change: activated -> deactivating (reason 'sleeping', sys-iface-state: 'managed')
+Sep 20 23:55:10 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695254110.7224] device (wlo1): state change: deactivating -> disconnected (reason 'sleeping', sys-iface-state: 'managed')
+Sep 20 23:55:10 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695254110.7682] dhcp4 (wlo1): canceled DHCP transaction
+Sep 20 23:55:10 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695254110.7683] dhcp4 (wlo1): state changed bound -> done
+Sep 20 23:55:10 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695254110.7694] dhcp6 (wlo1): canceled DHCP transaction
+Sep 20 23:55:10 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695254110.7694] dhcp6 (wlo1): state changed timeout -> done
+Sep 20 23:55:10 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695254110.7849] device (wlo1): supplicant interface state: completed -> disconnected
+Sep 20 23:55:10 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695254110.7855] device (wlo1): state change: disconnected -> unmanaged (reason 'sleeping', sys-iface-state: 'managed')
+Sep 21 10:49:36 andrey-GF63-Thin-9SCXR ModemManager[1027]: <info>  [sleep-monitor] system is resuming
+Sep 21 10:49:36 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695293376.1242] manager: sleep: wake requested (sleeping: yes  enabled: yes)
+Sep 21 10:49:36 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695293376.1245] device (enp3s0): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'managed')
+Sep 21 10:49:36 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695293376.3654] device (wlo1): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'managed')
+Sep 21 10:49:36 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695293376.5696] device (p2p-dev-wlo1): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'managed')
+Sep 21 10:49:36 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695293376.5700] manager: NetworkManager state is now CONNECTED_LOCAL
+Sep 21 10:49:36 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695293376.6483] sup-iface[0x56176b21f9f0,wlo1]: supports 5 scan SSIDs
+Sep 21 10:49:36 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695293376.6509] device (wlo1): supplicant interface state: starting -> ready
+Sep 21 10:49:36 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695293376.6511] device (p2p-dev-wlo1): state change: unavailable -> disconnected (reason 'supplicant-available', sys-iface-state: 'managed')
+Sep 21 10:49:36 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695293376.6524] device (wlo1): state change: unavailable -> disconnected (reason 'supplicant-available', sys-iface-state: 'managed')
+Sep 21 10:49:38 andrey-GF63-Thin-9SCXR ModemManager[1027]: <info>  [base-manager] couldn't check support for device '/sys/devices/pci0000:00/0000:00:14.3': not supported by any plugin
+Sep 21 10:49:38 andrey-GF63-Thin-9SCXR ModemManager[1027]: <info>  [base-manager] couldn't check support for device '/sys/devices/pci0000:00/0000:00:1d.4/0000:03:00.0': not supported by any plugin
+Sep 21 10:49:39 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695293379.8501] policy: auto-activating connection 'ITMO-Corp' (d678e94b-a61d-4685-9448-828252c5a3e1)
+Sep 21 10:49:39 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695293379.8506] device (wlo1): Activation: starting connection 'ITMO-Corp' (d678e94b-a61d-4685-9448-828252c5a3e1)
+Sep 21 10:49:39 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695293379.8507] device (wlo1): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Sep 21 10:49:39 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695293379.8511] manager: NetworkManager state is now CONNECTING
+Sep 21 10:49:39 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695293379.8515] device (wlo1): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Sep 21 10:49:39 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695293379.8518] device (wlo1): Activation: (wifi) access point 'ITMO-Corp' has security, but secrets are required.
+Sep 21 10:49:39 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695293379.8519] device (wlo1): state change: config -> need-auth (reason 'none', sys-iface-state: 'managed')
+Sep 21 10:49:39 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695293379.8548] device (wlo1): state change: need-auth -> prepare (reason 'none', sys-iface-state: 'managed')
+Sep 21 10:49:39 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695293379.8552] device (wlo1): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Sep 21 10:49:39 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695293379.8555] device (wlo1): Activation: (wifi) connection 'ITMO-Corp' has security, and secrets exist.  No new secrets needed.
+Sep 21 10:49:39 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695293379.8555] Config: added 'ssid' value 'ITMO-Corp'
+Sep 21 10:49:39 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695293379.8556] Config: added 'scan_ssid' value '1'
+Sep 21 10:49:39 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695293379.8556] Config: added 'bgscan' value 'simple:30:-65:300'
+Sep 21 10:49:39 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695293379.8556] Config: added 'key_mgmt' value 'WPA-EAP WPA-EAP-SHA256 FT-EAP FT-EAP-SHA384'
+Sep 21 10:49:39 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695293379.8556] Config: added 'auth_alg' value 'OPEN'
+Sep 21 10:49:39 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695293379.8556] Config: added 'password' value '<hidden>'
+Sep 21 10:49:39 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695293379.8556] Config: added 'eap' value 'TTLS'
+Sep 21 10:49:39 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695293379.8556] Config: added 'fragment_size' value '1266'
+Sep 21 10:49:39 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695293379.8556] Config: added 'phase2' value 'auth=MSCHAPV2'
+Sep 21 10:49:39 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695293379.8556] Config: added 'identity' value '367384'
+Sep 21 10:49:39 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695293379.8557] Config: added 'proactive_key_caching' value '1'
+Sep 21 10:49:39 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695293379.8712] device (wlo1): supplicant interface state: ready -> authenticating
+Sep 21 10:49:39 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695293379.8713] device (p2p-dev-wlo1): supplicant management interface state: ready -> authenticating
+Sep 21 10:49:40 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695293380.2658] device (wlo1): supplicant interface state: authenticating -> disconnected
+Sep 21 10:49:40 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695293380.2659] device (p2p-dev-wlo1): supplicant management interface state: authenticating -> disconnected
+Sep 21 10:49:40 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695293380.3657] device (wlo1): supplicant interface state: disconnected -> scanning
+Sep 21 10:49:40 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695293380.3658] device (p2p-dev-wlo1): supplicant management interface state: disconnected -> scanning
+Sep 21 10:49:40 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695293380.6289] device (wlo1): supplicant interface state: scanning -> authenticating
+Sep 21 10:49:40 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695293380.6290] device (p2p-dev-wlo1): supplicant management interface state: scanning -> authenticating
+Sep 21 10:49:40 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695293380.7648] device (wlo1): supplicant interface state: authenticating -> associating
+Sep 21 10:49:40 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695293380.7648] device (p2p-dev-wlo1): supplicant management interface state: authenticating -> associating
+Sep 21 10:49:40 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695293380.7751] device (wlo1): supplicant interface state: associating -> associated
+Sep 21 10:49:40 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695293380.7752] device (p2p-dev-wlo1): supplicant management interface state: associating -> associated
+Sep 21 10:49:40 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695293380.9443] device (wlo1): supplicant interface state: associated -> completed
+Sep 21 10:49:40 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695293380.9443] device (wlo1): Activation: (wifi) Stage 2 of 5 (Device Configure) successful. Connected to wireless network "ITMO-Corp"
+Sep 21 10:49:40 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695293380.9444] device (p2p-dev-wlo1): supplicant management interface state: associated -> completed
+Sep 21 10:49:40 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695293380.9448] device (wlo1): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Sep 21 10:49:40 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695293380.9460] dhcp4 (wlo1): activation: beginning transaction (timeout in 45 seconds)
+Sep 21 10:49:40 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695293380.9864] dhcp4 (wlo1): state changed unknown -> expire
+Sep 21 10:49:41 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695293381.8254] dhcp4 (wlo1): option dhcp_lease_time      => '172800'
+Sep 21 10:49:41 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695293381.8254] dhcp4 (wlo1): option domain_name_servers  => '172.28.16.1 77.234.194.2 77.234.216.3'
+Sep 21 10:49:41 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695293381.8255] dhcp4 (wlo1): option expiry               => '1695466181'
+Sep 21 10:49:41 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695293381.8255] dhcp4 (wlo1): option ip_address           => '172.28.26.215'
+Sep 21 10:49:41 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695293381.8255] dhcp4 (wlo1): option next_server          => '172.28.16.1'
+Sep 21 10:49:41 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695293381.8256] dhcp4 (wlo1): option ntp_servers          => '194.190.168.1 213.199.225.30'
+Sep 21 10:49:41 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695293381.8256] dhcp4 (wlo1): option requested_broadcast_address => '1'
+Sep 21 10:49:41 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695293381.8257] dhcp4 (wlo1): option requested_domain_name => '1'
+Sep 21 10:49:41 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695293381.8258] dhcp4 (wlo1): option requested_domain_name_servers => '1'
+Sep 21 10:49:41 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695293381.8258] dhcp4 (wlo1): option requested_domain_search => '1'
+Sep 21 10:49:41 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695293381.8258] dhcp4 (wlo1): option requested_host_name  => '1'
+Sep 21 10:49:41 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695293381.8258] dhcp4 (wlo1): option requested_interface_mtu => '1'
+Sep 21 10:49:41 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695293381.8259] dhcp4 (wlo1): option requested_ms_classless_static_routes => '1'
+Sep 21 10:49:41 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695293381.8259] dhcp4 (wlo1): option requested_nis_domain => '1'
+Sep 21 10:49:41 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695293381.8259] dhcp4 (wlo1): option requested_nis_servers => '1'
+Sep 21 10:49:41 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695293381.8259] dhcp4 (wlo1): option requested_ntp_servers => '1'
+Sep 21 10:49:41 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695293381.8260] dhcp4 (wlo1): option requested_rfc3442_classless_static_routes => '1'
+Sep 21 10:49:41 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695293381.8260] dhcp4 (wlo1): option requested_root_path  => '1'
+Sep 21 10:49:41 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695293381.8260] dhcp4 (wlo1): option requested_routers    => '1'
+Sep 21 10:49:41 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695293381.8261] dhcp4 (wlo1): option requested_static_routes => '1'
+Sep 21 10:49:41 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695293381.8261] dhcp4 (wlo1): option requested_subnet_mask => '1'
+Sep 21 10:49:41 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695293381.8261] dhcp4 (wlo1): option requested_time_offset => '1'
+Sep 21 10:49:41 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695293381.8261] dhcp4 (wlo1): option requested_wpad       => '1'
+Sep 21 10:49:41 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695293381.8262] dhcp4 (wlo1): option routers              => '172.28.16.1'
+Sep 21 10:49:41 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695293381.8262] dhcp4 (wlo1): option subnet_mask          => '255.255.240.0'
+Sep 21 10:49:41 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695293381.8262] dhcp4 (wlo1): state changed expire -> bound
+Sep 21 10:49:41 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695293381.8309] device (wlo1): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Sep 21 10:49:41 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695293381.8608] device (wlo1): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Sep 21 10:49:41 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695293381.8611] device (wlo1): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Sep 21 10:49:41 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695293381.8619] manager: NetworkManager state is now CONNECTED_LOCAL
+Sep 21 10:49:41 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695293381.8653] manager: NetworkManager state is now CONNECTED_SITE
+Sep 21 10:49:41 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695293381.8655] policy: set 'ITMO-Corp' (wlo1) as default for IPv4 routing and DNS
+Sep 21 10:49:41 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695293381.8669] device (wlo1): Activation: successful, device activated.
+Sep 21 10:49:41 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695293381.9008] agent-manager: agent[cb12daa6976709a1,:1.88/org.gnome.Shell.NetworkAgent/1000]: agent registered
+Sep 21 10:49:42 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695293382.0699] manager: NetworkManager state is now CONNECTED_GLOBAL
+Sep 21 10:51:30 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695293490.0042] device (wlo1): supplicant interface state: completed -> authenticating
+Sep 21 10:51:30 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695293490.0042] device (p2p-dev-wlo1): supplicant management interface state: completed -> authenticating
+Sep 21 10:51:30 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695293490.3963] device (wlo1): supplicant interface state: authenticating -> disconnected
+Sep 21 10:51:30 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695293490.3963] device (p2p-dev-wlo1): supplicant management interface state: authenticating -> disconnected
+Sep 21 10:51:30 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695293490.4964] device (wlo1): supplicant interface state: disconnected -> scanning
+Sep 21 10:51:30 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695293490.4965] device (p2p-dev-wlo1): supplicant management interface state: disconnected -> scanning
+Sep 21 10:51:30 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695293490.7392] device (wlo1): supplicant interface state: scanning -> authenticating
+Sep 21 10:51:30 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695293490.7392] device (p2p-dev-wlo1): supplicant management interface state: scanning -> authenticating
+Sep 21 10:51:30 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695293490.7799] device (wlo1): supplicant interface state: authenticating -> associating
+Sep 21 10:51:30 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695293490.7799] device (p2p-dev-wlo1): supplicant management interface state: authenticating -> associating
+Sep 21 10:51:30 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695293490.7906] device (wlo1): supplicant interface state: associating -> associated
+Sep 21 10:51:30 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695293490.7906] device (p2p-dev-wlo1): supplicant management interface state: associating -> associated
+Sep 21 10:51:30 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695293490.8896] device (wlo1): supplicant interface state: associated -> completed
+Sep 21 10:51:30 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695293490.8901] device (p2p-dev-wlo1): supplicant management interface state: associated -> completed
+Sep 21 10:56:34 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695293794.8781] device (wlo1): supplicant interface state: completed -> authenticating
+Sep 21 10:56:34 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695293794.8781] device (p2p-dev-wlo1): supplicant management interface state: completed -> authenticating
+Sep 21 10:56:35 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695293795.2585] device (wlo1): supplicant interface state: authenticating -> disconnected
+Sep 21 10:56:35 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695293795.2586] device (p2p-dev-wlo1): supplicant management interface state: authenticating -> disconnected
+Sep 21 10:56:35 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695293795.3586] device (wlo1): supplicant interface state: disconnected -> scanning
+Sep 21 10:56:35 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695293795.3587] device (p2p-dev-wlo1): supplicant management interface state: disconnected -> scanning
+Sep 21 10:56:35 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695293795.4977] device (wlo1): supplicant interface state: scanning -> authenticating
+Sep 21 10:56:35 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695293795.4977] device (p2p-dev-wlo1): supplicant management interface state: scanning -> authenticating
+Sep 21 10:56:35 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695293795.5370] device (wlo1): supplicant interface state: authenticating -> associating
+Sep 21 10:56:35 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695293795.5371] device (p2p-dev-wlo1): supplicant management interface state: authenticating -> associating
+Sep 21 10:56:35 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695293795.5550] device (wlo1): supplicant interface state: associating -> associated
+Sep 21 10:56:35 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695293795.5550] device (p2p-dev-wlo1): supplicant management interface state: associating -> associated
+Sep 21 10:56:35 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695293795.6123] device (wlo1): supplicant interface state: associated -> completed
+Sep 21 10:56:35 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695293795.6143] device (p2p-dev-wlo1): supplicant management interface state: associated -> completed
+Sep 21 10:57:01 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695293821.1045] device (wlo1): supplicant interface state: completed -> authenticating
+Sep 21 10:57:01 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695293821.1046] device (p2p-dev-wlo1): supplicant management interface state: completed -> authenticating
+Sep 21 10:57:01 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695293821.4829] device (wlo1): supplicant interface state: authenticating -> disconnected
+Sep 21 10:57:01 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695293821.4829] device (p2p-dev-wlo1): supplicant management interface state: authenticating -> disconnected
+Sep 21 10:57:01 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695293821.5830] device (wlo1): supplicant interface state: disconnected -> scanning
+Sep 21 10:57:01 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695293821.5831] device (p2p-dev-wlo1): supplicant management interface state: disconnected -> scanning
+Sep 21 10:57:01 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695293821.7897] device (wlo1): supplicant interface state: scanning -> authenticating
+Sep 21 10:57:01 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695293821.7898] device (p2p-dev-wlo1): supplicant management interface state: scanning -> authenticating
+Sep 21 10:57:01 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695293821.8286] device (wlo1): supplicant interface state: authenticating -> associating
+Sep 21 10:57:01 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695293821.8286] device (p2p-dev-wlo1): supplicant management interface state: authenticating -> associating
+Sep 21 10:57:01 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695293821.8436] device (wlo1): supplicant interface state: associating -> associated
+Sep 21 10:57:01 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695293821.8436] device (p2p-dev-wlo1): supplicant management interface state: associating -> associated
+Sep 21 10:57:01 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695293821.8918] device (wlo1): supplicant interface state: associated -> 4-way handshake
+Sep 21 10:57:01 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695293821.8919] device (p2p-dev-wlo1): supplicant management interface state: associated -> 4-way handshake
+Sep 21 10:57:01 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695293821.9459] device (wlo1): supplicant interface state: 4-way handshake -> completed
+Sep 21 10:57:01 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695293821.9476] device (p2p-dev-wlo1): supplicant management interface state: 4-way handshake -> completed
+Sep 21 11:02:06 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695294126.3440] device (wlo1): supplicant interface state: completed -> authenticating
+Sep 21 11:02:06 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695294126.3441] device (p2p-dev-wlo1): supplicant management interface state: completed -> authenticating
+Sep 21 11:02:06 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695294126.7229] device (wlo1): supplicant interface state: authenticating -> disconnected
+Sep 21 11:02:06 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695294126.7230] device (p2p-dev-wlo1): supplicant management interface state: authenticating -> disconnected
+Sep 21 11:02:06 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695294126.8227] device (wlo1): supplicant interface state: disconnected -> scanning
+Sep 21 11:02:06 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695294126.8228] device (p2p-dev-wlo1): supplicant management interface state: disconnected -> scanning
+Sep 21 11:02:07 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695294127.0411] device (wlo1): supplicant interface state: scanning -> authenticating
+Sep 21 11:02:07 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695294127.0411] device (p2p-dev-wlo1): supplicant management interface state: scanning -> authenticating
+Sep 21 11:02:07 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695294127.0830] device (wlo1): supplicant interface state: authenticating -> associating
+Sep 21 11:02:07 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695294127.0830] device (p2p-dev-wlo1): supplicant management interface state: authenticating -> associating
+Sep 21 11:02:07 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695294127.0962] device (wlo1): supplicant interface state: associating -> associated
+Sep 21 11:02:07 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695294127.0962] device (p2p-dev-wlo1): supplicant management interface state: associating -> associated
+Sep 21 11:02:07 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695294127.2043] device (wlo1): supplicant interface state: associated -> completed
+Sep 21 11:02:07 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695294127.2060] device (p2p-dev-wlo1): supplicant management interface state: associated -> completed
+Sep 21 11:07:12 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695294432.3348] device (wlo1): supplicant interface state: completed -> authenticating
+Sep 21 11:07:12 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695294432.3348] device (p2p-dev-wlo1): supplicant management interface state: completed -> authenticating
+Sep 21 11:07:12 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695294432.7094] device (wlo1): supplicant interface state: authenticating -> disconnected
+Sep 21 11:07:12 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695294432.7095] device (p2p-dev-wlo1): supplicant management interface state: authenticating -> disconnected
+Sep 21 11:07:12 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695294432.8096] device (wlo1): supplicant interface state: disconnected -> scanning
+Sep 21 11:07:12 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695294432.8097] device (p2p-dev-wlo1): supplicant management interface state: disconnected -> scanning
+Sep 21 11:07:12 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695294432.9659] device (wlo1): supplicant interface state: scanning -> authenticating
+Sep 21 11:07:12 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695294432.9660] device (p2p-dev-wlo1): supplicant management interface state: scanning -> authenticating
+Sep 21 11:07:13 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695294433.0030] device (wlo1): supplicant interface state: authenticating -> associating
+Sep 21 11:07:13 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695294433.0030] device (p2p-dev-wlo1): supplicant management interface state: authenticating -> associating
+Sep 21 11:07:13 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695294433.0298] device (wlo1): supplicant interface state: associating -> associated
+Sep 21 11:07:13 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695294433.0298] device (p2p-dev-wlo1): supplicant management interface state: associating -> associated
+Sep 21 11:07:13 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695294433.0819] device (wlo1): supplicant interface state: associated -> 4-way handshake
+Sep 21 11:07:13 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695294433.0820] device (p2p-dev-wlo1): supplicant management interface state: associated -> 4-way handshake
+Sep 21 11:07:13 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695294433.1197] device (wlo1): supplicant interface state: 4-way handshake -> completed
+Sep 21 11:07:13 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695294433.1230] device (p2p-dev-wlo1): supplicant management interface state: 4-way handshake -> completed
+Sep 21 11:07:46 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695294466.7591] device (wlo1): supplicant interface state: completed -> authenticating
+Sep 21 11:07:46 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695294466.7592] device (p2p-dev-wlo1): supplicant management interface state: completed -> authenticating
+Sep 21 11:07:47 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695294467.1349] device (wlo1): supplicant interface state: authenticating -> disconnected
+Sep 21 11:07:47 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695294467.1350] device (p2p-dev-wlo1): supplicant management interface state: authenticating -> disconnected
+Sep 21 11:07:47 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695294467.2350] device (wlo1): supplicant interface state: disconnected -> scanning
+Sep 21 11:07:47 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695294467.2351] device (p2p-dev-wlo1): supplicant management interface state: disconnected -> scanning
+Sep 21 11:07:47 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695294467.4053] device (wlo1): supplicant interface state: scanning -> authenticating
+Sep 21 11:07:47 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695294467.4054] device (p2p-dev-wlo1): supplicant management interface state: scanning -> authenticating
+Sep 21 11:07:47 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695294467.4613] device (wlo1): supplicant interface state: authenticating -> associating
+Sep 21 11:07:47 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695294467.4613] device (p2p-dev-wlo1): supplicant management interface state: authenticating -> associating
+Sep 21 11:07:47 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695294467.5336] device (wlo1): supplicant interface state: associating -> 4-way handshake
+Sep 21 11:07:47 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695294467.5337] device (p2p-dev-wlo1): supplicant management interface state: associating -> 4-way handshake
+Sep 21 11:07:47 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695294467.5960] device (wlo1): supplicant interface state: 4-way handshake -> completed
+Sep 21 11:07:47 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695294467.5978] device (p2p-dev-wlo1): supplicant management interface state: 4-way handshake -> completed
+Sep 21 11:12:51 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695294771.5127] device (wlo1): supplicant interface state: completed -> authenticating
+Sep 21 11:12:51 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695294771.5127] device (p2p-dev-wlo1): supplicant management interface state: completed -> authenticating
+Sep 21 11:12:51 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695294771.8866] device (wlo1): supplicant interface state: authenticating -> disconnected
+Sep 21 11:12:51 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695294771.8867] device (p2p-dev-wlo1): supplicant management interface state: authenticating -> disconnected
+Sep 21 11:12:51 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695294771.9867] device (wlo1): supplicant interface state: disconnected -> scanning
+Sep 21 11:12:51 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695294771.9868] device (p2p-dev-wlo1): supplicant management interface state: disconnected -> scanning
+Sep 21 11:12:52 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695294772.1747] device (wlo1): supplicant interface state: scanning -> authenticating
+Sep 21 11:12:52 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695294772.1747] device (p2p-dev-wlo1): supplicant management interface state: scanning -> authenticating
+Sep 21 11:12:52 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695294772.2188] device (wlo1): supplicant interface state: authenticating -> associating
+Sep 21 11:12:52 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695294772.2189] device (p2p-dev-wlo1): supplicant management interface state: authenticating -> associating
+Sep 21 11:12:52 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695294772.2385] device (wlo1): supplicant interface state: associating -> associated
+Sep 21 11:12:52 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695294772.2386] device (p2p-dev-wlo1): supplicant management interface state: associating -> associated
+Sep 21 11:12:52 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695294772.2837] device (wlo1): supplicant interface state: associated -> 4-way handshake
+Sep 21 11:12:52 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695294772.2838] device (p2p-dev-wlo1): supplicant management interface state: associated -> 4-way handshake
+Sep 21 11:12:52 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695294772.3280] device (wlo1): supplicant interface state: 4-way handshake -> completed
+Sep 21 11:12:52 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695294772.3336] device (p2p-dev-wlo1): supplicant management interface state: 4-way handshake -> completed
+Sep 21 11:19:16 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295156.9638] device (wlo1): supplicant interface state: completed -> authenticating
+Sep 21 11:19:16 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295156.9639] device (p2p-dev-wlo1): supplicant management interface state: completed -> authenticating
+Sep 21 11:19:17 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295157.3506] device (wlo1): supplicant interface state: authenticating -> disconnected
+Sep 21 11:19:17 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295157.3507] device (p2p-dev-wlo1): supplicant management interface state: authenticating -> disconnected
+Sep 21 11:19:17 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295157.4508] device (wlo1): supplicant interface state: disconnected -> scanning
+Sep 21 11:19:17 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295157.4509] device (p2p-dev-wlo1): supplicant management interface state: disconnected -> scanning
+Sep 21 11:19:17 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295157.6603] device (wlo1): supplicant interface state: scanning -> authenticating
+Sep 21 11:19:17 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295157.6603] device (p2p-dev-wlo1): supplicant management interface state: scanning -> authenticating
+Sep 21 11:19:17 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295157.7013] device (wlo1): supplicant interface state: authenticating -> associating
+Sep 21 11:19:17 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295157.7013] device (p2p-dev-wlo1): supplicant management interface state: authenticating -> associating
+Sep 21 11:19:17 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295157.7827] device (wlo1): supplicant interface state: associating -> disconnected
+Sep 21 11:19:17 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295157.7827] device (p2p-dev-wlo1): supplicant management interface state: associating -> disconnected
+Sep 21 11:19:17 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295157.8828] device (wlo1): supplicant interface state: disconnected -> scanning
+Sep 21 11:19:17 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295157.8829] device (p2p-dev-wlo1): supplicant management interface state: disconnected -> scanning
+Sep 21 11:19:18 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295158.0614] device (wlo1): supplicant interface state: scanning -> authenticating
+Sep 21 11:19:18 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295158.0615] device (p2p-dev-wlo1): supplicant management interface state: scanning -> authenticating
+Sep 21 11:19:18 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295158.4390] device (wlo1): supplicant interface state: authenticating -> disconnected
+Sep 21 11:19:18 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295158.4391] device (p2p-dev-wlo1): supplicant management interface state: authenticating -> disconnected
+Sep 21 11:19:18 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295158.5391] device (wlo1): supplicant interface state: disconnected -> scanning
+Sep 21 11:19:18 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295158.5392] device (p2p-dev-wlo1): supplicant management interface state: disconnected -> scanning
+Sep 21 11:19:18 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295158.7156] device (wlo1): supplicant interface state: scanning -> authenticating
+Sep 21 11:19:18 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295158.7157] device (p2p-dev-wlo1): supplicant management interface state: scanning -> authenticating
+Sep 21 11:19:18 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295158.7539] device (wlo1): supplicant interface state: authenticating -> associating
+Sep 21 11:19:18 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295158.7540] device (p2p-dev-wlo1): supplicant management interface state: authenticating -> associating
+Sep 21 11:19:18 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295158.7723] device (wlo1): supplicant interface state: associating -> associated
+Sep 21 11:19:18 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295158.7724] device (p2p-dev-wlo1): supplicant management interface state: associating -> associated
+Sep 21 11:19:18 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295158.8139] device (wlo1): supplicant interface state: associated -> 4-way handshake
+Sep 21 11:19:18 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295158.8140] device (p2p-dev-wlo1): supplicant management interface state: associated -> 4-way handshake
+Sep 21 11:19:18 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295158.8645] device (wlo1): supplicant interface state: 4-way handshake -> completed
+Sep 21 11:19:18 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295158.8663] device (p2p-dev-wlo1): supplicant management interface state: 4-way handshake -> completed
+Sep 21 11:19:52 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295192.2108] device (wlo1): supplicant interface state: completed -> authenticating
+Sep 21 11:19:52 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295192.2109] device (p2p-dev-wlo1): supplicant management interface state: completed -> authenticating
+Sep 21 11:19:52 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295192.2535] device (wlo1): supplicant interface state: authenticating -> associating
+Sep 21 11:19:52 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295192.2535] device (p2p-dev-wlo1): supplicant management interface state: authenticating -> associating
+Sep 21 11:19:52 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295192.2690] device (wlo1): supplicant interface state: associating -> associated
+Sep 21 11:19:52 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295192.2691] device (p2p-dev-wlo1): supplicant management interface state: associating -> associated
+Sep 21 11:19:52 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295192.2981] device (wlo1): supplicant interface state: associated -> 4-way handshake
+Sep 21 11:19:52 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295192.2982] device (p2p-dev-wlo1): supplicant management interface state: associated -> 4-way handshake
+Sep 21 11:19:52 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295192.3052] device (wlo1): supplicant interface state: 4-way handshake -> completed
+Sep 21 11:19:52 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295192.3066] device (p2p-dev-wlo1): supplicant management interface state: 4-way handshake -> completed
+Sep 21 11:20:25 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295225.6181] device (wlo1): supplicant interface state: completed -> authenticating
+Sep 21 11:20:25 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295225.6182] device (p2p-dev-wlo1): supplicant management interface state: completed -> authenticating
+Sep 21 11:20:26 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295226.0059] device (wlo1): supplicant interface state: authenticating -> disconnected
+Sep 21 11:20:26 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295226.0059] device (p2p-dev-wlo1): supplicant management interface state: authenticating -> disconnected
+Sep 21 11:20:26 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295226.1059] device (wlo1): supplicant interface state: disconnected -> scanning
+Sep 21 11:20:26 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295226.1060] device (p2p-dev-wlo1): supplicant management interface state: disconnected -> scanning
+Sep 21 11:20:26 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295226.3296] device (wlo1): supplicant interface state: scanning -> authenticating
+Sep 21 11:20:26 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295226.3297] device (p2p-dev-wlo1): supplicant management interface state: scanning -> authenticating
+Sep 21 11:20:26 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295226.3743] device (wlo1): supplicant interface state: authenticating -> associating
+Sep 21 11:20:26 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295226.3743] device (p2p-dev-wlo1): supplicant management interface state: authenticating -> associating
+Sep 21 11:20:26 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295226.4032] device (wlo1): supplicant interface state: associating -> associated
+Sep 21 11:20:26 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295226.4033] device (p2p-dev-wlo1): supplicant management interface state: associating -> associated
+Sep 21 11:20:26 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295226.4469] device (wlo1): supplicant interface state: associated -> 4-way handshake
+Sep 21 11:20:26 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295226.4470] device (p2p-dev-wlo1): supplicant management interface state: associated -> 4-way handshake
+Sep 21 11:20:26 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295226.5137] device (wlo1): supplicant interface state: 4-way handshake -> completed
+Sep 21 11:20:26 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295226.5154] device (p2p-dev-wlo1): supplicant management interface state: 4-way handshake -> completed
+Sep 21 11:20:55 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295255.7848] device (wlo1): supplicant interface state: completed -> authenticating
+Sep 21 11:20:55 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295255.7848] device (p2p-dev-wlo1): supplicant management interface state: completed -> authenticating
+Sep 21 11:20:56 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295256.1709] device (wlo1): supplicant interface state: authenticating -> disconnected
+Sep 21 11:20:56 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295256.1710] device (p2p-dev-wlo1): supplicant management interface state: authenticating -> disconnected
+Sep 21 11:20:56 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295256.2710] device (wlo1): supplicant interface state: disconnected -> scanning
+Sep 21 11:20:56 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295256.2711] device (p2p-dev-wlo1): supplicant management interface state: disconnected -> scanning
+Sep 21 11:20:56 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295256.4797] device (wlo1): supplicant interface state: scanning -> authenticating
+Sep 21 11:20:56 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295256.4797] device (p2p-dev-wlo1): supplicant management interface state: scanning -> authenticating
+Sep 21 11:20:56 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295256.8558] device (wlo1): supplicant interface state: authenticating -> disconnected
+Sep 21 11:20:56 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295256.8559] device (p2p-dev-wlo1): supplicant management interface state: authenticating -> disconnected
+Sep 21 11:20:56 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295256.9560] device (wlo1): supplicant interface state: disconnected -> scanning
+Sep 21 11:20:56 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295256.9561] device (p2p-dev-wlo1): supplicant management interface state: disconnected -> scanning
+Sep 21 11:20:57 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295257.1553] device (wlo1): supplicant interface state: scanning -> authenticating
+Sep 21 11:20:57 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295257.1553] device (p2p-dev-wlo1): supplicant management interface state: scanning -> authenticating
+Sep 21 11:20:57 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295257.1979] device (wlo1): supplicant interface state: authenticating -> associating
+Sep 21 11:20:57 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295257.1979] device (p2p-dev-wlo1): supplicant management interface state: authenticating -> associating
+Sep 21 11:20:57 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295257.2245] device (wlo1): supplicant interface state: associating -> associated
+Sep 21 11:20:57 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295257.2246] device (p2p-dev-wlo1): supplicant management interface state: associating -> associated
+Sep 21 11:20:57 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295257.2346] device (wlo1): supplicant interface state: associated -> 4-way handshake
+Sep 21 11:20:57 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295257.2346] device (p2p-dev-wlo1): supplicant management interface state: associated -> 4-way handshake
+Sep 21 11:20:57 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295257.2878] device (wlo1): supplicant interface state: 4-way handshake -> completed
+Sep 21 11:20:57 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295257.2904] device (p2p-dev-wlo1): supplicant management interface state: 4-way handshake -> completed
+Sep 21 11:21:31 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295291.1965] device (wlo1): supplicant interface state: completed -> authenticating
+Sep 21 11:21:31 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295291.1966] device (p2p-dev-wlo1): supplicant management interface state: completed -> authenticating
+Sep 21 11:21:31 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295291.3388] device (wlo1): supplicant interface state: authenticating -> associating
+Sep 21 11:21:31 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295291.3389] device (p2p-dev-wlo1): supplicant management interface state: authenticating -> associating
+Sep 21 11:21:31 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295291.3542] device (wlo1): supplicant interface state: associating -> associated
+Sep 21 11:21:31 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295291.3543] device (p2p-dev-wlo1): supplicant management interface state: associating -> associated
+Sep 21 11:21:31 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295291.4037] device (wlo1): supplicant interface state: associated -> 4-way handshake
+Sep 21 11:21:31 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295291.4038] device (p2p-dev-wlo1): supplicant management interface state: associated -> 4-way handshake
+Sep 21 11:21:31 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295291.4106] device (wlo1): supplicant interface state: 4-way handshake -> completed
+Sep 21 11:21:31 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295291.4122] device (p2p-dev-wlo1): supplicant management interface state: 4-way handshake -> completed
+Sep 21 11:22:34 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295354.4058] manager: sleep: sleep requested (sleeping: no  enabled: yes)
+Sep 21 11:22:34 andrey-GF63-Thin-9SCXR ModemManager[1027]: <info>  [sleep-monitor] system is about to suspend
+Sep 21 11:22:34 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295354.4059] device (enp3s0): state change: unavailable -> unmanaged (reason 'sleeping', sys-iface-state: 'managed')
+Sep 21 11:22:34 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295354.4155] device (p2p-dev-wlo1): state change: disconnected -> unmanaged (reason 'sleeping', sys-iface-state: 'managed')
+Sep 21 11:22:34 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295354.4157] manager: NetworkManager state is now ASLEEP
+Sep 21 11:22:34 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295354.4159] device (wlo1): state change: activated -> deactivating (reason 'sleeping', sys-iface-state: 'managed')
+Sep 21 11:22:34 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295354.5686] device (wlo1): state change: deactivating -> disconnected (reason 'sleeping', sys-iface-state: 'managed')
+Sep 21 11:22:34 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295354.5961] dhcp4 (wlo1): canceled DHCP transaction
+Sep 21 11:22:34 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295354.5961] dhcp4 (wlo1): state changed bound -> done
+Sep 21 11:22:34 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295354.6006] device (wlo1): supplicant interface state: completed -> disconnected
+Sep 21 11:22:34 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295354.6008] device (wlo1): state change: disconnected -> unmanaged (reason 'sleeping', sys-iface-state: 'managed')
+Sep 21 11:28:13 andrey-GF63-Thin-9SCXR ModemManager[1027]: <info>  [sleep-monitor] system is resuming
+Sep 21 11:28:13 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295693.5380] manager: sleep: wake requested (sleeping: yes  enabled: yes)
+Sep 21 11:28:13 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295693.5381] device (enp3s0): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'managed')
+Sep 21 11:28:13 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295693.7602] device (wlo1): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'managed')
+Sep 21 11:28:13 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295693.9619] device (p2p-dev-wlo1): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'managed')
+Sep 21 11:28:13 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295693.9623] manager: NetworkManager state is now CONNECTED_LOCAL
+Sep 21 11:28:14 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295694.0073] sup-iface[0x56176b21fae0,wlo1]: supports 5 scan SSIDs
+Sep 21 11:28:14 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295694.0078] device (wlo1): supplicant interface state: starting -> ready
+Sep 21 11:28:14 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295694.0079] device (p2p-dev-wlo1): state change: unavailable -> disconnected (reason 'supplicant-available', sys-iface-state: 'managed')
+Sep 21 11:28:14 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295694.0081] device (wlo1): state change: unavailable -> disconnected (reason 'supplicant-available', sys-iface-state: 'managed')
+Sep 21 11:28:16 andrey-GF63-Thin-9SCXR ModemManager[1027]: <info>  [base-manager] couldn't check support for device '/sys/devices/pci0000:00/0000:00:14.3': not supported by any plugin
+Sep 21 11:28:16 andrey-GF63-Thin-9SCXR ModemManager[1027]: <info>  [base-manager] couldn't check support for device '/sys/devices/pci0000:00/0000:00:1d.4/0000:03:00.0': not supported by any plugin
+Sep 21 11:28:17 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295697.0576] agent-manager: agent[787545ed2b7f0875,:1.88/org.gnome.Shell.NetworkAgent/1000]: agent registered
+Sep 21 11:28:17 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295697.2399] policy: auto-activating connection 'ITMO-Corp' (d678e94b-a61d-4685-9448-828252c5a3e1)
+Sep 21 11:28:17 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295697.2404] device (wlo1): Activation: starting connection 'ITMO-Corp' (d678e94b-a61d-4685-9448-828252c5a3e1)
+Sep 21 11:28:17 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295697.2404] device (wlo1): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Sep 21 11:28:17 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295697.2407] manager: NetworkManager state is now CONNECTING
+Sep 21 11:28:17 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295697.2409] device (wlo1): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Sep 21 11:28:17 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295697.2412] device (wlo1): Activation: (wifi) access point 'ITMO-Corp' has security, but secrets are required.
+Sep 21 11:28:17 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295697.2413] device (wlo1): state change: config -> need-auth (reason 'none', sys-iface-state: 'managed')
+Sep 21 11:28:17 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295697.2438] device (wlo1): state change: need-auth -> prepare (reason 'none', sys-iface-state: 'managed')
+Sep 21 11:28:17 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295697.2440] device (wlo1): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Sep 21 11:28:17 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295697.2443] device (wlo1): Activation: (wifi) connection 'ITMO-Corp' has security, and secrets exist.  No new secrets needed.
+Sep 21 11:28:17 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295697.2444] Config: added 'ssid' value 'ITMO-Corp'
+Sep 21 11:28:17 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295697.2444] Config: added 'scan_ssid' value '1'
+Sep 21 11:28:17 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295697.2444] Config: added 'bgscan' value 'simple:30:-65:300'
+Sep 21 11:28:17 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295697.2444] Config: added 'key_mgmt' value 'WPA-EAP WPA-EAP-SHA256 FT-EAP FT-EAP-SHA384'
+Sep 21 11:28:17 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295697.2444] Config: added 'auth_alg' value 'OPEN'
+Sep 21 11:28:17 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295697.2444] Config: added 'password' value '<hidden>'
+Sep 21 11:28:17 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295697.2444] Config: added 'eap' value 'TTLS'
+Sep 21 11:28:17 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295697.2444] Config: added 'fragment_size' value '1266'
+Sep 21 11:28:17 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295697.2445] Config: added 'phase2' value 'auth=MSCHAPV2'
+Sep 21 11:28:17 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295697.2445] Config: added 'identity' value '367384'
+Sep 21 11:28:17 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295697.2445] Config: added 'proactive_key_caching' value '1'
+Sep 21 11:28:17 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295697.2555] device (wlo1): supplicant interface state: ready -> authenticating
+Sep 21 11:28:17 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295697.2555] device (p2p-dev-wlo1): supplicant management interface state: ready -> authenticating
+Sep 21 11:28:17 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295697.7043] device (wlo1): supplicant interface state: authenticating -> disconnected
+Sep 21 11:28:17 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295697.7043] device (p2p-dev-wlo1): supplicant management interface state: authenticating -> disconnected
+Sep 21 11:28:17 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295697.8044] device (wlo1): supplicant interface state: disconnected -> scanning
+Sep 21 11:28:17 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295697.8044] device (p2p-dev-wlo1): supplicant management interface state: disconnected -> scanning
+Sep 21 11:28:18 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295698.0419] device (wlo1): supplicant interface state: scanning -> authenticating
+Sep 21 11:28:18 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295698.0419] device (p2p-dev-wlo1): supplicant management interface state: scanning -> authenticating
+Sep 21 11:28:18 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295698.5259] device (wlo1): supplicant interface state: authenticating -> disconnected
+Sep 21 11:28:18 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295698.5260] device (p2p-dev-wlo1): supplicant management interface state: authenticating -> disconnected
+Sep 21 11:28:18 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295698.6262] device (wlo1): supplicant interface state: disconnected -> scanning
+Sep 21 11:28:18 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295698.6263] device (p2p-dev-wlo1): supplicant management interface state: disconnected -> scanning
+Sep 21 11:28:18 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295698.8653] device (wlo1): supplicant interface state: scanning -> authenticating
+Sep 21 11:28:18 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295698.8654] device (p2p-dev-wlo1): supplicant management interface state: scanning -> authenticating
+Sep 21 11:28:18 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295698.9056] device (wlo1): supplicant interface state: authenticating -> associating
+Sep 21 11:28:18 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295698.9056] device (p2p-dev-wlo1): supplicant management interface state: authenticating -> associating
+Sep 21 11:28:18 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295698.9220] device (wlo1): supplicant interface state: associating -> associated
+Sep 21 11:28:18 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295698.9221] device (p2p-dev-wlo1): supplicant management interface state: associating -> associated
+Sep 21 11:28:19 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295699.2129] device (wlo1): supplicant interface state: associated -> completed
+Sep 21 11:28:19 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295699.2130] device (wlo1): Activation: (wifi) Stage 2 of 5 (Device Configure) successful. Connected to wireless network "ITMO-Corp"
+Sep 21 11:28:19 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295699.2131] device (p2p-dev-wlo1): supplicant management interface state: associated -> completed
+Sep 21 11:28:19 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295699.2135] device (wlo1): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Sep 21 11:28:19 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295699.2147] dhcp4 (wlo1): activation: beginning transaction (timeout in 45 seconds)
+Sep 21 11:28:20 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295700.9178] dhcp4 (wlo1): option dhcp_lease_time      => '172800'
+Sep 21 11:28:20 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295700.9179] dhcp4 (wlo1): option domain_name_servers  => '172.28.16.1 77.234.194.2 77.234.216.3'
+Sep 21 11:28:20 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295700.9179] dhcp4 (wlo1): option expiry               => '1695468499'
+Sep 21 11:28:20 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295700.9179] dhcp4 (wlo1): option ip_address           => '172.28.26.215'
+Sep 21 11:28:20 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295700.9180] dhcp4 (wlo1): option next_server          => '172.28.16.1'
+Sep 21 11:28:20 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295700.9180] dhcp4 (wlo1): option ntp_servers          => '194.190.168.1 213.199.225.30'
+Sep 21 11:28:20 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295700.9180] dhcp4 (wlo1): option requested_broadcast_address => '1'
+Sep 21 11:28:20 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295700.9180] dhcp4 (wlo1): option requested_domain_name => '1'
+Sep 21 11:28:20 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295700.9181] dhcp4 (wlo1): option requested_domain_name_servers => '1'
+Sep 21 11:28:20 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295700.9181] dhcp4 (wlo1): option requested_domain_search => '1'
+Sep 21 11:28:20 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295700.9181] dhcp4 (wlo1): option requested_host_name  => '1'
+Sep 21 11:28:20 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295700.9181] dhcp4 (wlo1): option requested_interface_mtu => '1'
+Sep 21 11:28:20 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295700.9181] dhcp4 (wlo1): option requested_ms_classless_static_routes => '1'
+Sep 21 11:28:20 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295700.9182] dhcp4 (wlo1): option requested_nis_domain => '1'
+Sep 21 11:28:20 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295700.9182] dhcp4 (wlo1): option requested_nis_servers => '1'
+Sep 21 11:28:20 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295700.9182] dhcp4 (wlo1): option requested_ntp_servers => '1'
+Sep 21 11:28:20 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295700.9182] dhcp4 (wlo1): option requested_rfc3442_classless_static_routes => '1'
+Sep 21 11:28:20 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295700.9182] dhcp4 (wlo1): option requested_root_path  => '1'
+Sep 21 11:28:20 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295700.9183] dhcp4 (wlo1): option requested_routers    => '1'
+Sep 21 11:28:20 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295700.9183] dhcp4 (wlo1): option requested_static_routes => '1'
+Sep 21 11:28:20 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295700.9183] dhcp4 (wlo1): option requested_subnet_mask => '1'
+Sep 21 11:28:20 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295700.9183] dhcp4 (wlo1): option requested_time_offset => '1'
+Sep 21 11:28:20 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295700.9183] dhcp4 (wlo1): option requested_wpad       => '1'
+Sep 21 11:28:20 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295700.9184] dhcp4 (wlo1): option routers              => '172.28.16.1'
+Sep 21 11:28:20 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295700.9184] dhcp4 (wlo1): option subnet_mask          => '255.255.240.0'
+Sep 21 11:28:20 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295700.9184] dhcp4 (wlo1): state changed unknown -> bound
+Sep 21 11:28:20 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295700.9240] device (wlo1): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Sep 21 11:28:20 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295700.9456] device (wlo1): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Sep 21 11:28:20 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295700.9458] device (wlo1): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Sep 21 11:28:20 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295700.9463] manager: NetworkManager state is now CONNECTED_LOCAL
+Sep 21 11:28:20 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295700.9547] manager: NetworkManager state is now CONNECTED_SITE
+Sep 21 11:28:20 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295700.9548] policy: set 'ITMO-Corp' (wlo1) as default for IPv4 routing and DNS
+Sep 21 11:28:20 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295700.9559] device (wlo1): Activation: successful, device activated.
+Sep 21 11:28:21 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295701.2511] manager: NetworkManager state is now CONNECTED_GLOBAL
+Sep 21 11:28:53 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295733.2086] device (wlo1): supplicant interface state: completed -> authenticating
+Sep 21 11:28:53 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295733.2087] device (p2p-dev-wlo1): supplicant management interface state: completed -> authenticating
+Sep 21 11:28:53 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295733.5924] device (wlo1): supplicant interface state: authenticating -> disconnected
+Sep 21 11:28:53 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295733.5924] device (p2p-dev-wlo1): supplicant management interface state: authenticating -> disconnected
+Sep 21 11:28:53 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295733.6923] device (wlo1): supplicant interface state: disconnected -> scanning
+Sep 21 11:28:53 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295733.6924] device (p2p-dev-wlo1): supplicant management interface state: disconnected -> scanning
+Sep 21 11:28:53 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295733.9757] device (wlo1): supplicant interface state: scanning -> authenticating
+Sep 21 11:28:53 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295733.9757] device (p2p-dev-wlo1): supplicant management interface state: scanning -> authenticating
+Sep 21 11:28:54 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295734.0108] device (wlo1): supplicant interface state: authenticating -> associating
+Sep 21 11:28:54 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295734.0108] device (p2p-dev-wlo1): supplicant management interface state: authenticating -> associating
+Sep 21 11:28:54 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295734.0398] device (wlo1): supplicant interface state: associating -> associated
+Sep 21 11:28:54 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295734.0399] device (p2p-dev-wlo1): supplicant management interface state: associating -> associated
+Sep 21 11:28:54 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295734.0794] device (wlo1): supplicant interface state: associated -> 4-way handshake
+Sep 21 11:28:54 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295734.0794] device (p2p-dev-wlo1): supplicant management interface state: associated -> 4-way handshake
+Sep 21 11:28:54 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295734.1440] device (wlo1): supplicant interface state: 4-way handshake -> completed
+Sep 21 11:28:54 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295734.1445] device (p2p-dev-wlo1): supplicant management interface state: 4-way handshake -> completed
+Sep 21 11:29:29 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295769.2555] device (wlo1): supplicant interface state: completed -> authenticating
+Sep 21 11:29:29 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295769.2556] device (p2p-dev-wlo1): supplicant management interface state: completed -> authenticating
+Sep 21 11:29:29 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295769.4020] device (wlo1): supplicant interface state: authenticating -> associating
+Sep 21 11:29:29 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295769.4021] device (p2p-dev-wlo1): supplicant management interface state: authenticating -> associating
+Sep 21 11:29:29 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295769.4198] device (wlo1): supplicant interface state: associating -> associated
+Sep 21 11:29:29 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295769.4199] device (p2p-dev-wlo1): supplicant management interface state: associating -> associated
+Sep 21 11:29:29 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295769.4666] device (wlo1): supplicant interface state: associated -> completed
+Sep 21 11:29:29 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695295769.4683] device (p2p-dev-wlo1): supplicant management interface state: associated -> completed
+Sep 21 12:47:36 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695300456.6033] agent-manager: agent[11c6f62f02fa4852,:1.88/org.gnome.Shell.NetworkAgent/1000]: agent registered
+Sep 21 13:23:58 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695302638.8065] agent-manager: agent[11c6f62f02fa4852,:1.88/org.gnome.Shell.NetworkAgent/1000]: agent registered
+Sep 21 14:31:19 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695306679.2846] manager: sleep: sleep requested (sleeping: no  enabled: yes)
+Sep 21 14:31:19 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695306679.2847] device (enp3s0): state change: unavailable -> unmanaged (reason 'sleeping', sys-iface-state: 'managed')
+Sep 21 14:31:19 andrey-GF63-Thin-9SCXR ModemManager[1027]: <info>  [sleep-monitor] system is about to suspend
+Sep 21 14:31:19 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695306679.2942] device (p2p-dev-wlo1): state change: disconnected -> unmanaged (reason 'sleeping', sys-iface-state: 'managed')
+Sep 21 14:31:19 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695306679.2945] manager: NetworkManager state is now ASLEEP
+Sep 21 14:31:19 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695306679.2947] device (wlo1): state change: activated -> deactivating (reason 'sleeping', sys-iface-state: 'managed')
+Sep 21 14:31:19 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695306679.5050] device (wlo1): state change: deactivating -> disconnected (reason 'sleeping', sys-iface-state: 'managed')
+Sep 21 14:31:19 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695306679.5070] dhcp4 (wlo1): canceled DHCP transaction
+Sep 21 14:31:19 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695306679.5070] dhcp4 (wlo1): state changed bound -> done
+Sep 21 14:31:19 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695306679.5261] device (wlo1): supplicant interface state: completed -> disconnected
+Sep 21 14:31:19 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695306679.5271] device (wlo1): state change: disconnected -> unmanaged (reason 'sleeping', sys-iface-state: 'managed')
+Sep 21 15:03:27 andrey-GF63-Thin-9SCXR ModemManager[1027]: <info>  [sleep-monitor] system is resuming
+Sep 21 15:03:27 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695308607.5477] manager: sleep: wake requested (sleeping: yes  enabled: yes)
+Sep 21 15:03:27 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695308607.5478] device (enp3s0): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'managed')
+Sep 21 15:03:27 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695308607.7725] device (wlo1): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'managed')
+Sep 21 15:03:27 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695308607.9737] device (p2p-dev-wlo1): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'managed')
+Sep 21 15:03:27 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695308607.9743] manager: NetworkManager state is now CONNECTED_LOCAL
+Sep 21 15:03:28 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695308608.0542] sup-iface[0x56176b21fbd0,wlo1]: supports 5 scan SSIDs
+Sep 21 15:03:28 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695308608.0569] device (wlo1): supplicant interface state: starting -> ready
+Sep 21 15:03:28 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695308608.0571] device (p2p-dev-wlo1): state change: unavailable -> disconnected (reason 'supplicant-available', sys-iface-state: 'managed')
+Sep 21 15:03:28 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695308608.0583] device (wlo1): state change: unavailable -> disconnected (reason 'supplicant-available', sys-iface-state: 'managed')
+Sep 21 15:03:30 andrey-GF63-Thin-9SCXR ModemManager[1027]: <info>  [base-manager] couldn't check support for device '/sys/devices/pci0000:00/0000:00:14.3': not supported by any plugin
+Sep 21 15:03:30 andrey-GF63-Thin-9SCXR ModemManager[1027]: <info>  [base-manager] couldn't check support for device '/sys/devices/pci0000:00/0000:00:1d.4/0000:03:00.0': not supported by any plugin
+Sep 21 15:03:31 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695308611.2588] policy: auto-activating connection 'ITMO-Corp' (d678e94b-a61d-4685-9448-828252c5a3e1)
+Sep 21 15:03:31 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695308611.2594] device (wlo1): Activation: starting connection 'ITMO-Corp' (d678e94b-a61d-4685-9448-828252c5a3e1)
+Sep 21 15:03:31 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695308611.2595] device (wlo1): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Sep 21 15:03:31 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695308611.2598] manager: NetworkManager state is now CONNECTING
+Sep 21 15:03:31 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695308611.2602] device (wlo1): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Sep 21 15:03:31 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695308611.2605] device (wlo1): Activation: (wifi) access point 'ITMO-Corp' has security, but secrets are required.
+Sep 21 15:03:31 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695308611.2605] device (wlo1): state change: config -> need-auth (reason 'none', sys-iface-state: 'managed')
+Sep 21 15:03:31 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695308611.2628] device (wlo1): state change: need-auth -> prepare (reason 'none', sys-iface-state: 'managed')
+Sep 21 15:03:31 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695308611.2630] device (wlo1): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Sep 21 15:03:31 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695308611.2633] device (wlo1): Activation: (wifi) connection 'ITMO-Corp' has security, and secrets exist.  No new secrets needed.
+Sep 21 15:03:31 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695308611.2633] Config: added 'ssid' value 'ITMO-Corp'
+Sep 21 15:03:31 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695308611.2633] Config: added 'scan_ssid' value '1'
+Sep 21 15:03:31 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695308611.2634] Config: added 'bgscan' value 'simple:30:-65:300'
+Sep 21 15:03:31 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695308611.2634] Config: added 'key_mgmt' value 'WPA-EAP WPA-EAP-SHA256 FT-EAP FT-EAP-SHA384'
+Sep 21 15:03:31 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695308611.2634] Config: added 'auth_alg' value 'OPEN'
+Sep 21 15:03:31 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695308611.2634] Config: added 'password' value '<hidden>'
+Sep 21 15:03:31 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695308611.2634] Config: added 'eap' value 'TTLS'
+Sep 21 15:03:31 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695308611.2634] Config: added 'fragment_size' value '1266'
+Sep 21 15:03:31 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695308611.2634] Config: added 'phase2' value 'auth=MSCHAPV2'
+Sep 21 15:03:31 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695308611.2634] Config: added 'identity' value '367384'
+Sep 21 15:03:31 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695308611.2635] Config: added 'proactive_key_caching' value '1'
+Sep 21 15:03:31 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695308611.2804] device (wlo1): supplicant interface state: ready -> authenticating
+Sep 21 15:03:31 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695308611.2805] device (p2p-dev-wlo1): supplicant management interface state: ready -> authenticating
+Sep 21 15:03:31 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695308611.6719] device (wlo1): supplicant interface state: authenticating -> disconnected
+Sep 21 15:03:31 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695308611.6720] device (p2p-dev-wlo1): supplicant management interface state: authenticating -> disconnected
+Sep 21 15:03:31 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695308611.7717] device (wlo1): supplicant interface state: disconnected -> scanning
+Sep 21 15:03:31 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695308611.7718] device (p2p-dev-wlo1): supplicant management interface state: disconnected -> scanning
+Sep 21 15:03:31 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695308611.9927] device (wlo1): supplicant interface state: scanning -> authenticating
+Sep 21 15:03:31 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695308611.9928] device (p2p-dev-wlo1): supplicant management interface state: scanning -> authenticating
+Sep 21 15:03:32 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695308612.0326] device (wlo1): supplicant interface state: authenticating -> associating
+Sep 21 15:03:32 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695308612.0326] device (p2p-dev-wlo1): supplicant management interface state: authenticating -> associating
+Sep 21 15:03:32 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695308612.0441] device (wlo1): supplicant interface state: associating -> associated
+Sep 21 15:03:32 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695308612.0442] device (p2p-dev-wlo1): supplicant management interface state: associating -> associated
+Sep 21 15:03:32 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695308612.2370] device (wlo1): supplicant interface state: associated -> completed
+Sep 21 15:03:32 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695308612.2370] device (wlo1): Activation: (wifi) Stage 2 of 5 (Device Configure) successful. Connected to wireless network "ITMO-Corp"
+Sep 21 15:03:32 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695308612.2370] device (p2p-dev-wlo1): supplicant management interface state: associated -> completed
+Sep 21 15:03:32 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695308612.2372] device (wlo1): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Sep 21 15:03:32 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695308612.2375] dhcp4 (wlo1): activation: beginning transaction (timeout in 45 seconds)
+Sep 21 15:03:32 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695308612.8188] dhcp4 (wlo1): option dhcp_lease_time      => '172800'
+Sep 21 15:03:32 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695308612.8188] dhcp4 (wlo1): option domain_name_servers  => '172.28.16.1 77.234.194.2 77.234.216.3'
+Sep 21 15:03:32 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695308612.8189] dhcp4 (wlo1): option expiry               => '1695481412'
+Sep 21 15:03:32 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695308612.8189] dhcp4 (wlo1): option ip_address           => '172.28.26.215'
+Sep 21 15:03:32 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695308612.8189] dhcp4 (wlo1): option next_server          => '172.28.16.1'
+Sep 21 15:03:32 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695308612.8189] dhcp4 (wlo1): option ntp_servers          => '194.190.168.1 213.199.225.30'
+Sep 21 15:03:32 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695308612.8190] dhcp4 (wlo1): option requested_broadcast_address => '1'
+Sep 21 15:03:32 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695308612.8190] dhcp4 (wlo1): option requested_domain_name => '1'
+Sep 21 15:03:32 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695308612.8190] dhcp4 (wlo1): option requested_domain_name_servers => '1'
+Sep 21 15:03:32 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695308612.8190] dhcp4 (wlo1): option requested_domain_search => '1'
+Sep 21 15:03:32 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695308612.8191] dhcp4 (wlo1): option requested_host_name  => '1'
+Sep 21 15:03:32 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695308612.8191] dhcp4 (wlo1): option requested_interface_mtu => '1'
+Sep 21 15:03:32 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695308612.8191] dhcp4 (wlo1): option requested_ms_classless_static_routes => '1'
+Sep 21 15:03:32 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695308612.8191] dhcp4 (wlo1): option requested_nis_domain => '1'
+Sep 21 15:03:32 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695308612.8192] dhcp4 (wlo1): option requested_nis_servers => '1'
+Sep 21 15:03:32 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695308612.8192] dhcp4 (wlo1): option requested_ntp_servers => '1'
+Sep 21 15:03:32 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695308612.8192] dhcp4 (wlo1): option requested_rfc3442_classless_static_routes => '1'
+Sep 21 15:03:32 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695308612.8193] dhcp4 (wlo1): option requested_root_path  => '1'
+Sep 21 15:03:32 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695308612.8193] dhcp4 (wlo1): option requested_routers    => '1'
+Sep 21 15:03:32 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695308612.8193] dhcp4 (wlo1): option requested_static_routes => '1'
+Sep 21 15:03:32 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695308612.8193] dhcp4 (wlo1): option requested_subnet_mask => '1'
+Sep 21 15:03:32 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695308612.8194] dhcp4 (wlo1): option requested_time_offset => '1'
+Sep 21 15:03:32 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695308612.8194] dhcp4 (wlo1): option requested_wpad       => '1'
+Sep 21 15:03:32 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695308612.8194] dhcp4 (wlo1): option routers              => '172.28.16.1'
+Sep 21 15:03:32 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695308612.8194] dhcp4 (wlo1): option subnet_mask          => '255.255.240.0'
+Sep 21 15:03:32 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695308612.8194] dhcp4 (wlo1): state changed unknown -> bound
+Sep 21 15:03:32 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695308612.8231] device (wlo1): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Sep 21 15:03:32 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695308612.8291] device (wlo1): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Sep 21 15:03:32 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695308612.8296] device (wlo1): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Sep 21 15:03:32 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695308612.8305] manager: NetworkManager state is now CONNECTED_LOCAL
+Sep 21 15:03:32 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695308612.8340] manager: NetworkManager state is now CONNECTED_SITE
+Sep 21 15:03:32 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695308612.8343] policy: set 'ITMO-Corp' (wlo1) as default for IPv4 routing and DNS
+Sep 21 15:03:32 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695308612.8359] device (wlo1): Activation: successful, device activated.
+Sep 21 15:03:33 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695308613.1159] manager: NetworkManager state is now CONNECTED_GLOBAL
+Sep 21 15:03:47 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695308627.1156] agent-manager: agent[11c6f62f02fa4852,:1.88/org.gnome.Shell.NetworkAgent/1000]: agent registered
+Sep 21 15:08:36 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695308916.2722] device (wlo1): supplicant interface state: completed -> authenticating
+Sep 21 15:08:36 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695308916.2723] device (p2p-dev-wlo1): supplicant management interface state: completed -> authenticating
+Sep 21 15:08:36 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695308916.6605] device (wlo1): supplicant interface state: authenticating -> disconnected
+Sep 21 15:08:36 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695308916.6606] device (p2p-dev-wlo1): supplicant management interface state: authenticating -> disconnected
+Sep 21 15:08:36 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695308916.7607] device (wlo1): supplicant interface state: disconnected -> scanning
+Sep 21 15:08:36 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695308916.7608] device (p2p-dev-wlo1): supplicant management interface state: disconnected -> scanning
+Sep 21 15:08:36 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695308916.9421] device (wlo1): supplicant interface state: scanning -> authenticating
+Sep 21 15:08:36 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695308916.9422] device (p2p-dev-wlo1): supplicant management interface state: scanning -> authenticating
+Sep 21 15:08:36 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695308916.9823] device (wlo1): supplicant interface state: authenticating -> associating
+Sep 21 15:08:36 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695308916.9823] device (p2p-dev-wlo1): supplicant management interface state: authenticating -> associating
+Sep 21 15:08:36 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695308916.9979] device (wlo1): supplicant interface state: associating -> associated
+Sep 21 15:08:36 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695308916.9980] device (p2p-dev-wlo1): supplicant management interface state: associating -> associated
+Sep 21 15:08:37 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695308917.0764] device (wlo1): supplicant interface state: associated -> completed
+Sep 21 15:08:37 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695308917.0785] device (p2p-dev-wlo1): supplicant management interface state: associated -> completed
+Sep 21 15:13:40 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695309220.9843] device (wlo1): supplicant interface state: completed -> authenticating
+Sep 21 15:13:40 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695309220.9844] device (p2p-dev-wlo1): supplicant management interface state: completed -> authenticating
+Sep 21 15:13:41 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695309221.0228] device (wlo1): supplicant interface state: authenticating -> associating
+Sep 21 15:13:41 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695309221.0228] device (p2p-dev-wlo1): supplicant management interface state: authenticating -> associating
+Sep 21 15:13:41 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695309221.0393] device (wlo1): supplicant interface state: associating -> associated
+Sep 21 15:13:41 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695309221.0393] device (p2p-dev-wlo1): supplicant management interface state: associating -> associated
+Sep 21 15:13:41 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695309221.1005] device (wlo1): supplicant interface state: associated -> 4-way handshake
+Sep 21 15:13:41 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695309221.1006] device (p2p-dev-wlo1): supplicant management interface state: associated -> 4-way handshake
+Sep 21 15:13:41 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695309221.1080] device (wlo1): supplicant interface state: 4-way handshake -> completed
+Sep 21 15:13:41 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695309221.1096] device (p2p-dev-wlo1): supplicant management interface state: 4-way handshake -> completed
+Sep 21 15:23:52 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695309832.6716] manager: NetworkManager state is now CONNECTED_SITE
+Sep 21 15:23:52 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695309832.8065] manager: NetworkManager state is now CONNECTED_GLOBAL
+Sep 21 15:27:00 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695310020.6544] device (wlo1): supplicant interface state: completed -> disconnected
+Sep 21 15:27:00 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695310020.6544] device (p2p-dev-wlo1): supplicant management interface state: completed -> disconnected
+Sep 21 15:27:00 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695310020.7187] device (wlo1): supplicant interface state: disconnected -> scanning
+Sep 21 15:27:00 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695310020.7188] device (p2p-dev-wlo1): supplicant management interface state: disconnected -> scanning
+Sep 21 15:27:00 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695310020.8816] device (wlo1): supplicant interface state: scanning -> authenticating
+Sep 21 15:27:00 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695310020.8816] device (p2p-dev-wlo1): supplicant management interface state: scanning -> authenticating
+Sep 21 15:27:00 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695310020.9474] device (wlo1): supplicant interface state: authenticating -> associating
+Sep 21 15:27:00 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695310020.9474] device (p2p-dev-wlo1): supplicant management interface state: authenticating -> associating
+Sep 21 15:27:00 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695310020.9737] device (wlo1): supplicant interface state: associating -> associated
+Sep 21 15:27:00 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695310020.9738] device (p2p-dev-wlo1): supplicant management interface state: associating -> associated
+Sep 21 15:27:00 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695310020.9895] device (wlo1): supplicant interface state: associated -> 4-way handshake
+Sep 21 15:27:00 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695310020.9895] device (p2p-dev-wlo1): supplicant management interface state: associated -> 4-way handshake
+Sep 21 15:27:01 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695310021.0017] device (wlo1): supplicant interface state: 4-way handshake -> completed
+Sep 21 15:27:01 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695310021.0101] device (p2p-dev-wlo1): supplicant management interface state: 4-way handshake -> completed
+Sep 21 15:32:04 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695310324.3496] device (wlo1): supplicant interface state: completed -> authenticating
+Sep 21 15:32:04 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695310324.3497] device (p2p-dev-wlo1): supplicant management interface state: completed -> authenticating
+Sep 21 15:32:04 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695310324.3919] device (wlo1): supplicant interface state: authenticating -> associating
+Sep 21 15:32:04 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695310324.3920] device (p2p-dev-wlo1): supplicant management interface state: authenticating -> associating
+Sep 21 15:32:04 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695310324.4075] device (wlo1): supplicant interface state: associating -> associated
+Sep 21 15:32:04 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695310324.4076] device (p2p-dev-wlo1): supplicant management interface state: associating -> associated
+Sep 21 15:32:04 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695310324.4214] device (wlo1): supplicant interface state: associated -> 4-way handshake
+Sep 21 15:32:04 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695310324.4215] device (p2p-dev-wlo1): supplicant management interface state: associated -> 4-way handshake
+Sep 21 15:32:04 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695310324.4327] device (wlo1): supplicant interface state: 4-way handshake -> completed
+Sep 21 15:32:04 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695310324.4341] device (p2p-dev-wlo1): supplicant management interface state: 4-way handshake -> completed
+Sep 21 16:37:27 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314247.1105] manager: sleep: sleep requested (sleeping: no  enabled: yes)
+Sep 21 16:37:27 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314247.1107] device (enp3s0): state change: unavailable -> unmanaged (reason 'sleeping', sys-iface-state: 'managed')
+Sep 21 16:37:27 andrey-GF63-Thin-9SCXR ModemManager[1027]: <info>  [sleep-monitor] system is about to suspend
+Sep 21 16:37:27 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314247.1207] device (p2p-dev-wlo1): state change: disconnected -> unmanaged (reason 'sleeping', sys-iface-state: 'managed')
+Sep 21 16:37:27 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314247.1212] manager: NetworkManager state is now ASLEEP
+Sep 21 16:37:27 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314247.1215] device (wlo1): state change: activated -> deactivating (reason 'sleeping', sys-iface-state: 'managed')
+Sep 21 16:37:27 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314247.3052] device (wlo1): state change: deactivating -> disconnected (reason 'sleeping', sys-iface-state: 'managed')
+Sep 21 16:37:27 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314247.3314] dhcp4 (wlo1): canceled DHCP transaction
+Sep 21 16:37:27 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314247.3314] dhcp4 (wlo1): state changed bound -> done
+Sep 21 16:37:27 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314247.3471] device (wlo1): supplicant interface state: completed -> disconnected
+Sep 21 16:37:27 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314247.3475] device (wlo1): state change: disconnected -> unmanaged (reason 'sleeping', sys-iface-state: 'managed')
+Sep 21 16:45:21 andrey-GF63-Thin-9SCXR ModemManager[1027]: <info>  [sleep-monitor] system is resuming
+Sep 21 16:45:21 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314721.5425] manager: sleep: wake requested (sleeping: yes  enabled: yes)
+Sep 21 16:45:21 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314721.5427] device (enp3s0): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'managed')
+Sep 21 16:45:21 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314721.7804] device (wlo1): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'managed')
+Sep 21 16:45:21 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314721.9892] device (p2p-dev-wlo1): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'managed')
+Sep 21 16:45:21 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314721.9897] manager: NetworkManager state is now CONNECTED_LOCAL
+Sep 21 16:45:22 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314722.0393] sup-iface[0x56176b21fcc0,wlo1]: supports 5 scan SSIDs
+Sep 21 16:45:22 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314722.0399] device (wlo1): supplicant interface state: starting -> ready
+Sep 21 16:45:22 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314722.0400] device (p2p-dev-wlo1): state change: unavailable -> disconnected (reason 'supplicant-available', sys-iface-state: 'managed')
+Sep 21 16:45:22 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314722.0402] device (wlo1): state change: unavailable -> disconnected (reason 'supplicant-available', sys-iface-state: 'managed')
+Sep 21 16:45:24 andrey-GF63-Thin-9SCXR ModemManager[1027]: <info>  [base-manager] couldn't check support for device '/sys/devices/pci0000:00/0000:00:14.3': not supported by any plugin
+Sep 21 16:45:24 andrey-GF63-Thin-9SCXR ModemManager[1027]: <info>  [base-manager] couldn't check support for device '/sys/devices/pci0000:00/0000:00:1d.4/0000:03:00.0': not supported by any plugin
+Sep 21 16:45:25 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314725.2376] policy: auto-activating connection 'ITMO-Corp' (d678e94b-a61d-4685-9448-828252c5a3e1)
+Sep 21 16:45:25 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314725.2384] device (wlo1): Activation: starting connection 'ITMO-Corp' (d678e94b-a61d-4685-9448-828252c5a3e1)
+Sep 21 16:45:25 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314725.2385] device (wlo1): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Sep 21 16:45:25 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314725.2390] manager: NetworkManager state is now CONNECTING
+Sep 21 16:45:25 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314725.2394] device (wlo1): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Sep 21 16:45:25 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314725.2397] device (wlo1): Activation: (wifi) access point 'ITMO-Corp' has security, but secrets are required.
+Sep 21 16:45:25 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314725.2397] device (wlo1): state change: config -> need-auth (reason 'none', sys-iface-state: 'managed')
+Sep 21 16:45:25 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314725.2430] device (wlo1): state change: need-auth -> prepare (reason 'none', sys-iface-state: 'managed')
+Sep 21 16:45:25 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314725.2434] device (wlo1): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Sep 21 16:45:25 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314725.2438] device (wlo1): Activation: (wifi) connection 'ITMO-Corp' has security, and secrets exist.  No new secrets needed.
+Sep 21 16:45:25 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314725.2438] Config: added 'ssid' value 'ITMO-Corp'
+Sep 21 16:45:25 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314725.2439] Config: added 'scan_ssid' value '1'
+Sep 21 16:45:25 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314725.2439] Config: added 'bgscan' value 'simple:30:-65:300'
+Sep 21 16:45:25 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314725.2439] Config: added 'key_mgmt' value 'WPA-EAP WPA-EAP-SHA256 FT-EAP FT-EAP-SHA384'
+Sep 21 16:45:25 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314725.2439] Config: added 'auth_alg' value 'OPEN'
+Sep 21 16:45:25 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314725.2439] Config: added 'password' value '<hidden>'
+Sep 21 16:45:25 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314725.2439] Config: added 'eap' value 'TTLS'
+Sep 21 16:45:25 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314725.2440] Config: added 'fragment_size' value '1266'
+Sep 21 16:45:25 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314725.2440] Config: added 'phase2' value 'auth=MSCHAPV2'
+Sep 21 16:45:25 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314725.2440] Config: added 'identity' value '367384'
+Sep 21 16:45:25 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314725.2440] Config: added 'proactive_key_caching' value '1'
+Sep 21 16:45:25 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314725.2608] device (wlo1): supplicant interface state: ready -> authenticating
+Sep 21 16:45:25 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314725.2608] device (p2p-dev-wlo1): supplicant management interface state: ready -> authenticating
+Sep 21 16:45:25 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314725.6803] device (wlo1): supplicant interface state: authenticating -> disconnected
+Sep 21 16:45:25 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314725.6804] device (p2p-dev-wlo1): supplicant management interface state: authenticating -> disconnected
+Sep 21 16:45:25 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314725.7805] device (wlo1): supplicant interface state: disconnected -> scanning
+Sep 21 16:45:25 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314725.7806] device (p2p-dev-wlo1): supplicant management interface state: disconnected -> scanning
+Sep 21 16:45:26 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314726.0146] device (wlo1): supplicant interface state: scanning -> authenticating
+Sep 21 16:45:26 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314726.0147] device (p2p-dev-wlo1): supplicant management interface state: scanning -> authenticating
+Sep 21 16:45:26 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314726.0560] device (wlo1): supplicant interface state: authenticating -> associating
+Sep 21 16:45:26 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314726.0561] device (p2p-dev-wlo1): supplicant management interface state: authenticating -> associating
+Sep 21 16:45:26 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314726.0665] device (wlo1): supplicant interface state: associating -> associated
+Sep 21 16:45:26 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314726.0666] device (p2p-dev-wlo1): supplicant management interface state: associating -> associated
+Sep 21 16:45:26 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314726.2528] device (wlo1): supplicant interface state: associated -> 4-way handshake
+Sep 21 16:45:26 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314726.2529] device (p2p-dev-wlo1): supplicant management interface state: associated -> 4-way handshake
+Sep 21 16:45:26 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314726.3016] device (wlo1): supplicant interface state: 4-way handshake -> completed
+Sep 21 16:45:26 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314726.3017] device (wlo1): Activation: (wifi) Stage 2 of 5 (Device Configure) successful. Connected to wireless network "ITMO-Corp"
+Sep 21 16:45:26 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314726.3022] device (p2p-dev-wlo1): supplicant management interface state: 4-way handshake -> completed
+Sep 21 16:45:26 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314726.3026] device (wlo1): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Sep 21 16:45:26 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314726.3039] dhcp4 (wlo1): activation: beginning transaction (timeout in 45 seconds)
+Sep 21 16:45:31 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314731.0730] dhcp4 (wlo1): option dhcp_lease_time      => '172800'
+Sep 21 16:45:31 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314731.0730] dhcp4 (wlo1): option domain_name_servers  => '172.28.16.1 77.234.194.2 77.234.216.3'
+Sep 21 16:45:31 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314731.0731] dhcp4 (wlo1): option expiry               => '1695487531'
+Sep 21 16:45:31 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314731.0731] dhcp4 (wlo1): option ip_address           => '172.28.26.215'
+Sep 21 16:45:31 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314731.0731] dhcp4 (wlo1): option next_server          => '172.28.16.1'
+Sep 21 16:45:31 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314731.0731] dhcp4 (wlo1): option ntp_servers          => '194.190.168.1 213.199.225.30'
+Sep 21 16:45:31 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314731.0732] dhcp4 (wlo1): option requested_broadcast_address => '1'
+Sep 21 16:45:31 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314731.0732] dhcp4 (wlo1): option requested_domain_name => '1'
+Sep 21 16:45:31 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314731.0732] dhcp4 (wlo1): option requested_domain_name_servers => '1'
+Sep 21 16:45:31 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314731.0732] dhcp4 (wlo1): option requested_domain_search => '1'
+Sep 21 16:45:31 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314731.0732] dhcp4 (wlo1): option requested_host_name  => '1'
+Sep 21 16:45:31 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314731.0733] dhcp4 (wlo1): option requested_interface_mtu => '1'
+Sep 21 16:45:31 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314731.0733] dhcp4 (wlo1): option requested_ms_classless_static_routes => '1'
+Sep 21 16:45:31 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314731.0733] dhcp4 (wlo1): option requested_nis_domain => '1'
+Sep 21 16:45:31 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314731.0733] dhcp4 (wlo1): option requested_nis_servers => '1'
+Sep 21 16:45:31 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314731.0733] dhcp4 (wlo1): option requested_ntp_servers => '1'
+Sep 21 16:45:31 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314731.0734] dhcp4 (wlo1): option requested_rfc3442_classless_static_routes => '1'
+Sep 21 16:45:31 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314731.0734] dhcp4 (wlo1): option requested_root_path  => '1'
+Sep 21 16:45:31 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314731.0734] dhcp4 (wlo1): option requested_routers    => '1'
+Sep 21 16:45:31 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314731.0734] dhcp4 (wlo1): option requested_static_routes => '1'
+Sep 21 16:45:31 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314731.0734] dhcp4 (wlo1): option requested_subnet_mask => '1'
+Sep 21 16:45:31 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314731.0735] dhcp4 (wlo1): option requested_time_offset => '1'
+Sep 21 16:45:31 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314731.0735] dhcp4 (wlo1): option requested_wpad       => '1'
+Sep 21 16:45:31 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314731.0735] dhcp4 (wlo1): option routers              => '172.28.16.1'
+Sep 21 16:45:31 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314731.0735] dhcp4 (wlo1): option subnet_mask          => '255.255.240.0'
+Sep 21 16:45:31 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314731.0735] dhcp4 (wlo1): state changed unknown -> bound
+Sep 21 16:45:31 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314731.0782] device (wlo1): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Sep 21 16:45:31 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314731.0901] device (wlo1): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Sep 21 16:45:31 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314731.0903] device (wlo1): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Sep 21 16:45:31 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314731.0907] manager: NetworkManager state is now CONNECTED_LOCAL
+Sep 21 16:45:31 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314731.0924] manager: NetworkManager state is now CONNECTED_SITE
+Sep 21 16:45:31 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314731.0926] policy: set 'ITMO-Corp' (wlo1) as default for IPv4 routing and DNS
+Sep 21 16:45:31 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314731.0934] device (wlo1): Activation: successful, device activated.
+Sep 21 16:45:31 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314731.3257] manager: NetworkManager state is now CONNECTED_GLOBAL
+Sep 21 16:45:31 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314731.9573] agent-manager: agent[b89ef0a7879eb60f,:1.88/org.gnome.Shell.NetworkAgent/1000]: agent registered
+Sep 21 16:45:59 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314759.8990] device (wlo1): supplicant interface state: completed -> authenticating
+Sep 21 16:45:59 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314759.8991] device (p2p-dev-wlo1): supplicant management interface state: completed -> authenticating
+Sep 21 16:46:00 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314760.3132] device (wlo1): supplicant interface state: authenticating -> disconnected
+Sep 21 16:46:00 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314760.3134] device (p2p-dev-wlo1): supplicant management interface state: authenticating -> disconnected
+Sep 21 16:46:00 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314760.4132] device (wlo1): supplicant interface state: disconnected -> scanning
+Sep 21 16:46:00 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314760.4133] device (p2p-dev-wlo1): supplicant management interface state: disconnected -> scanning
+Sep 21 16:46:00 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314760.6694] device (wlo1): supplicant interface state: scanning -> authenticating
+Sep 21 16:46:00 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314760.6695] device (p2p-dev-wlo1): supplicant management interface state: scanning -> authenticating
+Sep 21 16:46:01 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314761.0567] device (wlo1): supplicant interface state: authenticating -> disconnected
+Sep 21 16:46:01 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314761.0568] device (p2p-dev-wlo1): supplicant management interface state: authenticating -> disconnected
+Sep 21 16:46:01 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314761.1567] device (wlo1): supplicant interface state: disconnected -> scanning
+Sep 21 16:46:01 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314761.1568] device (p2p-dev-wlo1): supplicant management interface state: disconnected -> scanning
+Sep 21 16:46:01 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314761.3266] device (wlo1): supplicant interface state: scanning -> authenticating
+Sep 21 16:46:01 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314761.3267] device (p2p-dev-wlo1): supplicant management interface state: scanning -> authenticating
+Sep 21 16:46:01 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314761.3629] device (wlo1): supplicant interface state: authenticating -> associating
+Sep 21 16:46:01 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314761.3629] device (p2p-dev-wlo1): supplicant management interface state: authenticating -> associating
+Sep 21 16:46:01 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314761.3798] device (wlo1): supplicant interface state: associating -> associated
+Sep 21 16:46:01 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314761.3798] device (p2p-dev-wlo1): supplicant management interface state: associating -> associated
+Sep 21 16:46:01 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314761.4490] device (wlo1): supplicant interface state: associated -> completed
+Sep 21 16:46:01 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314761.4554] device (p2p-dev-wlo1): supplicant management interface state: associated -> completed
+Sep 21 16:46:01 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314761.4611] device (wlo1): supplicant interface state: completed -> 4-way handshake
+Sep 21 16:46:01 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314761.4611] device (p2p-dev-wlo1): supplicant management interface state: completed -> 4-way handshake
+Sep 21 16:46:11 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314771.5741] device (wlo1): supplicant interface state: 4-way handshake -> disconnected
+Sep 21 16:46:11 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314771.5743] device (p2p-dev-wlo1): supplicant management interface state: 4-way handshake -> disconnected
+Sep 21 16:46:11 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314771.6390] device (wlo1): supplicant interface state: disconnected -> scanning
+Sep 21 16:46:11 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314771.6391] device (p2p-dev-wlo1): supplicant management interface state: disconnected -> scanning
+Sep 21 16:46:11 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314771.8731] device (wlo1): supplicant interface state: scanning -> authenticating
+Sep 21 16:46:11 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314771.8732] device (p2p-dev-wlo1): supplicant management interface state: scanning -> authenticating
+Sep 21 16:46:12 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314772.1108] device (wlo1): supplicant interface state: authenticating -> associating
+Sep 21 16:46:12 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314772.1109] device (p2p-dev-wlo1): supplicant management interface state: authenticating -> associating
+Sep 21 16:46:12 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314772.1252] device (wlo1): supplicant interface state: associating -> associated
+Sep 21 16:46:12 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314772.1252] device (p2p-dev-wlo1): supplicant management interface state: associating -> associated
+Sep 21 16:46:12 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314772.1346] device (wlo1): supplicant interface state: associated -> 4-way handshake
+Sep 21 16:46:12 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314772.1347] device (p2p-dev-wlo1): supplicant management interface state: associated -> 4-way handshake
+Sep 21 16:46:12 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314772.1820] device (wlo1): supplicant interface state: 4-way handshake -> completed
+Sep 21 16:46:12 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314772.1838] device (p2p-dev-wlo1): supplicant management interface state: 4-way handshake -> completed
+Sep 21 16:46:43 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314803.5648] manager: sleep: sleep requested (sleeping: no  enabled: yes)
+Sep 21 16:46:43 andrey-GF63-Thin-9SCXR ModemManager[1027]: <info>  [sleep-monitor] system is about to suspend
+Sep 21 16:46:43 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314803.5649] device (enp3s0): state change: unavailable -> unmanaged (reason 'sleeping', sys-iface-state: 'managed')
+Sep 21 16:46:43 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314803.5762] device (p2p-dev-wlo1): state change: disconnected -> unmanaged (reason 'sleeping', sys-iface-state: 'managed')
+Sep 21 16:46:43 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314803.5770] manager: NetworkManager state is now ASLEEP
+Sep 21 16:46:43 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314803.5772] device (wlo1): state change: activated -> deactivating (reason 'sleeping', sys-iface-state: 'managed')
+Sep 21 16:46:43 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314803.7496] device (wlo1): state change: deactivating -> disconnected (reason 'sleeping', sys-iface-state: 'managed')
+Sep 21 16:46:43 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314803.7955] dhcp4 (wlo1): canceled DHCP transaction
+Sep 21 16:46:43 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314803.7955] dhcp4 (wlo1): state changed bound -> done
+Sep 21 16:46:43 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314803.8150] device (wlo1): supplicant interface state: completed -> disconnected
+Sep 21 16:46:43 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695314803.8157] device (wlo1): state change: disconnected -> unmanaged (reason 'sleeping', sys-iface-state: 'managed')
+Sep 21 17:00:44 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695315644.5573] manager: sleep: wake requested (sleeping: yes  enabled: yes)
+Sep 21 17:00:44 andrey-GF63-Thin-9SCXR ModemManager[1027]: <info>  [sleep-monitor] system is resuming
+Sep 21 17:00:44 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695315644.5574] device (enp3s0): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'managed')
+Sep 21 17:00:44 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695315644.7869] device (wlo1): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'managed')
+Sep 21 17:00:44 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695315644.9877] device (p2p-dev-wlo1): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'managed')
+Sep 21 17:00:44 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695315644.9881] manager: NetworkManager state is now CONNECTED_LOCAL
+Sep 21 17:00:45 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695315645.0414] sup-iface[0x56176b21fcc0,wlo1]: supports 5 scan SSIDs
+Sep 21 17:00:45 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695315645.0420] device (wlo1): supplicant interface state: starting -> ready
+Sep 21 17:00:45 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695315645.0420] device (p2p-dev-wlo1): state change: unavailable -> disconnected (reason 'supplicant-available', sys-iface-state: 'managed')
+Sep 21 17:00:45 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695315645.0423] device (wlo1): state change: unavailable -> disconnected (reason 'supplicant-available', sys-iface-state: 'managed')
+Sep 21 17:00:47 andrey-GF63-Thin-9SCXR ModemManager[1027]: <info>  [base-manager] couldn't check support for device '/sys/devices/pci0000:00/0000:00:14.3': not supported by any plugin
+Sep 21 17:00:47 andrey-GF63-Thin-9SCXR ModemManager[1027]: <info>  [base-manager] couldn't check support for device '/sys/devices/pci0000:00/0000:00:1d.4/0000:03:00.0': not supported by any plugin
+Sep 21 17:00:48 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695315648.3169] policy: auto-activating connection 'ITMO-Corp' (d678e94b-a61d-4685-9448-828252c5a3e1)
+Sep 21 17:00:48 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695315648.3173] device (wlo1): Activation: starting connection 'ITMO-Corp' (d678e94b-a61d-4685-9448-828252c5a3e1)
+Sep 21 17:00:48 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695315648.3174] device (wlo1): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Sep 21 17:00:48 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695315648.3177] manager: NetworkManager state is now CONNECTING
+Sep 21 17:00:48 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695315648.3180] device (wlo1): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Sep 21 17:00:48 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695315648.3183] device (wlo1): Activation: (wifi) access point 'ITMO-Corp' has security, but secrets are required.
+Sep 21 17:00:48 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695315648.3184] device (wlo1): state change: config -> need-auth (reason 'none', sys-iface-state: 'managed')
+Sep 21 17:00:48 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695315648.3210] device (wlo1): state change: need-auth -> prepare (reason 'none', sys-iface-state: 'managed')
+Sep 21 17:00:48 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695315648.3214] device (wlo1): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Sep 21 17:00:48 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695315648.3217] device (wlo1): Activation: (wifi) connection 'ITMO-Corp' has security, and secrets exist.  No new secrets needed.
+Sep 21 17:00:48 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695315648.3217] Config: added 'ssid' value 'ITMO-Corp'
+Sep 21 17:00:48 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695315648.3217] Config: added 'scan_ssid' value '1'
+Sep 21 17:00:48 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695315648.3217] Config: added 'bgscan' value 'simple:30:-65:300'
+Sep 21 17:00:48 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695315648.3217] Config: added 'key_mgmt' value 'WPA-EAP WPA-EAP-SHA256 FT-EAP FT-EAP-SHA384'
+Sep 21 17:00:48 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695315648.3217] Config: added 'auth_alg' value 'OPEN'
+Sep 21 17:00:48 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695315648.3218] Config: added 'password' value '<hidden>'
+Sep 21 17:00:48 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695315648.3218] Config: added 'eap' value 'TTLS'
+Sep 21 17:00:48 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695315648.3218] Config: added 'fragment_size' value '1266'
+Sep 21 17:00:48 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695315648.3218] Config: added 'phase2' value 'auth=MSCHAPV2'
+Sep 21 17:00:48 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695315648.3218] Config: added 'identity' value '367384'
+Sep 21 17:00:48 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695315648.3218] Config: added 'proactive_key_caching' value '1'
+Sep 21 17:00:48 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695315648.3343] device (wlo1): supplicant interface state: ready -> authenticating
+Sep 21 17:00:48 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695315648.3343] device (p2p-dev-wlo1): supplicant management interface state: ready -> authenticating
+Sep 21 17:00:48 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695315648.3738] device (wlo1): supplicant interface state: authenticating -> associating
+Sep 21 17:00:48 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695315648.3738] device (p2p-dev-wlo1): supplicant management interface state: authenticating -> associating
+Sep 21 17:00:48 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695315648.3867] device (wlo1): supplicant interface state: associating -> associated
+Sep 21 17:00:48 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695315648.3867] device (p2p-dev-wlo1): supplicant management interface state: associating -> associated
+Sep 21 17:00:48 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695315648.5426] device (wlo1): supplicant interface state: associated -> completed
+Sep 21 17:00:48 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695315648.5426] device (wlo1): Activation: (wifi) Stage 2 of 5 (Device Configure) successful. Connected to wireless network "ITMO-Corp"
+Sep 21 17:00:48 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695315648.5427] device (p2p-dev-wlo1): supplicant management interface state: associated -> completed
+Sep 21 17:00:48 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695315648.5428] device (wlo1): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Sep 21 17:00:48 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695315648.5430] dhcp4 (wlo1): activation: beginning transaction (timeout in 45 seconds)
+Sep 21 17:00:50 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695315650.2698] agent-manager: agent[b89ef0a7879eb60f,:1.88/org.gnome.Shell.NetworkAgent/1000]: agent registered
+Sep 21 17:00:51 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695315651.0900] dhcp4 (wlo1): option dhcp_lease_time      => '172800'
+Sep 21 17:00:51 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695315651.0900] dhcp4 (wlo1): option domain_name_servers  => '172.28.16.1 77.234.194.2 77.234.216.3'
+Sep 21 17:00:51 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695315651.0900] dhcp4 (wlo1): option expiry               => '1695488451'
+Sep 21 17:00:51 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695315651.0900] dhcp4 (wlo1): option ip_address           => '172.28.26.215'
+Sep 21 17:00:51 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695315651.0900] dhcp4 (wlo1): option next_server          => '172.28.16.1'
+Sep 21 17:00:51 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695315651.0900] dhcp4 (wlo1): option ntp_servers          => '194.190.168.1 213.199.225.30'
+Sep 21 17:00:51 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695315651.0900] dhcp4 (wlo1): option requested_broadcast_address => '1'
+Sep 21 17:00:51 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695315651.0901] dhcp4 (wlo1): option requested_domain_name => '1'
+Sep 21 17:00:51 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695315651.0901] dhcp4 (wlo1): option requested_domain_name_servers => '1'
+Sep 21 17:00:51 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695315651.0901] dhcp4 (wlo1): option requested_domain_search => '1'
+Sep 21 17:00:51 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695315651.0901] dhcp4 (wlo1): option requested_host_name  => '1'
+Sep 21 17:00:51 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695315651.0901] dhcp4 (wlo1): option requested_interface_mtu => '1'
+Sep 21 17:00:51 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695315651.0901] dhcp4 (wlo1): option requested_ms_classless_static_routes => '1'
+Sep 21 17:00:51 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695315651.0901] dhcp4 (wlo1): option requested_nis_domain => '1'
+Sep 21 17:00:51 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695315651.0901] dhcp4 (wlo1): option requested_nis_servers => '1'
+Sep 21 17:00:51 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695315651.0901] dhcp4 (wlo1): option requested_ntp_servers => '1'
+Sep 21 17:00:51 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695315651.0901] dhcp4 (wlo1): option requested_rfc3442_classless_static_routes => '1'
+Sep 21 17:00:51 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695315651.0901] dhcp4 (wlo1): option requested_root_path  => '1'
+Sep 21 17:00:51 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695315651.0901] dhcp4 (wlo1): option requested_routers    => '1'
+Sep 21 17:00:51 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695315651.0901] dhcp4 (wlo1): option requested_static_routes => '1'
+Sep 21 17:00:51 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695315651.0902] dhcp4 (wlo1): option requested_subnet_mask => '1'
+Sep 21 17:00:51 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695315651.0902] dhcp4 (wlo1): option requested_time_offset => '1'
+Sep 21 17:00:51 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695315651.0902] dhcp4 (wlo1): option requested_wpad       => '1'
+Sep 21 17:00:51 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695315651.0902] dhcp4 (wlo1): option routers              => '172.28.16.1'
+Sep 21 17:00:51 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695315651.0902] dhcp4 (wlo1): option subnet_mask          => '255.255.240.0'
+Sep 21 17:00:51 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695315651.0902] dhcp4 (wlo1): state changed unknown -> bound
+Sep 21 17:00:51 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695315651.0915] device (wlo1): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Sep 21 17:00:51 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695315651.0937] device (wlo1): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Sep 21 17:00:51 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695315651.0939] device (wlo1): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Sep 21 17:00:51 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695315651.0941] manager: NetworkManager state is now CONNECTED_LOCAL
+Sep 21 17:00:51 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695315651.0956] manager: NetworkManager state is now CONNECTED_SITE
+Sep 21 17:00:51 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695315651.0957] policy: set 'ITMO-Corp' (wlo1) as default for IPv4 routing and DNS
+Sep 21 17:00:51 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695315651.0966] device (wlo1): Activation: successful, device activated.
+Sep 21 17:00:51 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695315651.4177] manager: NetworkManager state is now CONNECTED_GLOBAL
+Sep 21 17:49:32 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695318572.6726] manager: sleep: sleep requested (sleeping: no  enabled: yes)
+Sep 21 17:49:32 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695318572.6728] device (enp3s0): state change: unavailable -> unmanaged (reason 'sleeping', sys-iface-state: 'managed')
+Sep 21 17:49:32 andrey-GF63-Thin-9SCXR ModemManager[1027]: <info>  [sleep-monitor] system is about to suspend
+Sep 21 17:49:32 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695318572.6826] device (p2p-dev-wlo1): state change: disconnected -> unmanaged (reason 'sleeping', sys-iface-state: 'managed')
+Sep 21 17:49:32 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695318572.6829] manager: NetworkManager state is now ASLEEP
+Sep 21 17:49:32 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695318572.6830] device (wlo1): state change: activated -> deactivating (reason 'sleeping', sys-iface-state: 'managed')
+Sep 21 17:49:32 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695318572.8553] device (wlo1): state change: deactivating -> disconnected (reason 'sleeping', sys-iface-state: 'managed')
+Sep 21 17:49:32 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695318572.8814] dhcp4 (wlo1): canceled DHCP transaction
+Sep 21 17:49:32 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695318572.8814] dhcp4 (wlo1): state changed bound -> done
+Sep 21 17:49:32 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695318572.8918] device (wlo1): supplicant interface state: completed -> disconnected
+Sep 21 17:49:32 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695318572.8922] device (wlo1): state change: disconnected -> unmanaged (reason 'sleeping', sys-iface-state: 'managed')
+Sep 21 18:12:13 andrey-GF63-Thin-9SCXR ModemManager[1027]: <info>  [sleep-monitor] system is resuming
+Sep 21 18:12:13 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695319933.5538] manager: sleep: wake requested (sleeping: yes  enabled: yes)
+Sep 21 18:12:13 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695319933.5558] device (enp3s0): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'managed')
+Sep 21 18:12:13 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695319933.7935] device (wlo1): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'managed')
+Sep 21 18:12:13 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695319933.9983] device (p2p-dev-wlo1): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'managed')
+Sep 21 18:12:13 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695319933.9988] manager: NetworkManager state is now CONNECTED_LOCAL
+Sep 21 18:12:14 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695319934.0581] sup-iface[0x56176b21fbd0,wlo1]: supports 5 scan SSIDs
+Sep 21 18:12:14 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695319934.0586] device (wlo1): supplicant interface state: starting -> ready
+Sep 21 18:12:14 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695319934.0586] device (p2p-dev-wlo1): state change: unavailable -> disconnected (reason 'supplicant-available', sys-iface-state: 'managed')
+Sep 21 18:12:14 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695319934.0589] device (wlo1): state change: unavailable -> disconnected (reason 'supplicant-available', sys-iface-state: 'managed')
+Sep 21 18:12:16 andrey-GF63-Thin-9SCXR ModemManager[1027]: <info>  [base-manager] couldn't check support for device '/sys/devices/pci0000:00/0000:00:14.3': not supported by any plugin
+Sep 21 18:12:16 andrey-GF63-Thin-9SCXR ModemManager[1027]: <info>  [base-manager] couldn't check support for device '/sys/devices/pci0000:00/0000:00:1d.4/0000:03:00.0': not supported by any plugin
+Sep 21 18:12:17 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695319937.2905] policy: auto-activating connection 'ITMO-Corp' (d678e94b-a61d-4685-9448-828252c5a3e1)
+Sep 21 18:12:17 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695319937.2908] device (wlo1): Activation: starting connection 'ITMO-Corp' (d678e94b-a61d-4685-9448-828252c5a3e1)
+Sep 21 18:12:17 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695319937.2909] device (wlo1): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Sep 21 18:12:17 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695319937.2911] manager: NetworkManager state is now CONNECTING
+Sep 21 18:12:17 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695319937.2913] device (wlo1): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Sep 21 18:12:17 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695319937.2915] device (wlo1): Activation: (wifi) access point 'ITMO-Corp' has security, but secrets are required.
+Sep 21 18:12:17 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695319937.2917] device (wlo1): state change: config -> need-auth (reason 'none', sys-iface-state: 'managed')
+Sep 21 18:12:17 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695319937.2944] device (wlo1): state change: need-auth -> prepare (reason 'none', sys-iface-state: 'managed')
+Sep 21 18:12:17 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695319937.2947] device (wlo1): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Sep 21 18:12:17 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695319937.2950] device (wlo1): Activation: (wifi) connection 'ITMO-Corp' has security, and secrets exist.  No new secrets needed.
+Sep 21 18:12:17 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695319937.2950] Config: added 'ssid' value 'ITMO-Corp'
+Sep 21 18:12:17 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695319937.2950] Config: added 'scan_ssid' value '1'
+Sep 21 18:12:17 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695319937.2950] Config: added 'bgscan' value 'simple:30:-65:300'
+Sep 21 18:12:17 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695319937.2950] Config: added 'key_mgmt' value 'WPA-EAP WPA-EAP-SHA256 FT-EAP FT-EAP-SHA384'
+Sep 21 18:12:17 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695319937.2950] Config: added 'auth_alg' value 'OPEN'
+Sep 21 18:12:17 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695319937.2950] Config: added 'password' value '<hidden>'
+Sep 21 18:12:17 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695319937.2951] Config: added 'eap' value 'TTLS'
+Sep 21 18:12:17 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695319937.2951] Config: added 'fragment_size' value '1266'
+Sep 21 18:12:17 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695319937.2951] Config: added 'phase2' value 'auth=MSCHAPV2'
+Sep 21 18:12:17 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695319937.2951] Config: added 'identity' value '367384'
+Sep 21 18:12:17 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695319937.2951] Config: added 'proactive_key_caching' value '1'
+Sep 21 18:12:17 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695319937.3103] device (wlo1): supplicant interface state: ready -> authenticating
+Sep 21 18:12:17 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695319937.3103] device (p2p-dev-wlo1): supplicant management interface state: ready -> authenticating
+Sep 21 18:12:17 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695319937.7545] device (wlo1): supplicant interface state: authenticating -> disconnected
+Sep 21 18:12:17 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695319937.7546] device (p2p-dev-wlo1): supplicant management interface state: authenticating -> disconnected
+Sep 21 18:12:17 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695319937.8546] device (wlo1): supplicant interface state: disconnected -> scanning
+Sep 21 18:12:17 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695319937.8548] device (p2p-dev-wlo1): supplicant management interface state: disconnected -> scanning
+Sep 21 18:12:18 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695319938.0735] device (wlo1): supplicant interface state: scanning -> authenticating
+Sep 21 18:12:18 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695319938.0736] device (p2p-dev-wlo1): supplicant management interface state: scanning -> authenticating
+Sep 21 18:12:18 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695319938.1369] device (wlo1): supplicant interface state: authenticating -> associating
+Sep 21 18:12:18 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695319938.1371] device (p2p-dev-wlo1): supplicant management interface state: authenticating -> associating
+Sep 21 18:12:18 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695319938.1514] device (wlo1): supplicant interface state: associating -> associated
+Sep 21 18:12:18 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695319938.1515] device (p2p-dev-wlo1): supplicant management interface state: associating -> associated
+Sep 21 18:12:18 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695319938.3625] device (wlo1): supplicant interface state: associated -> 4-way handshake
+Sep 21 18:12:18 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695319938.3625] device (p2p-dev-wlo1): supplicant management interface state: associated -> 4-way handshake
+Sep 21 18:12:18 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695319938.4344] device (wlo1): supplicant interface state: 4-way handshake -> completed
+Sep 21 18:12:18 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695319938.4345] device (wlo1): Activation: (wifi) Stage 2 of 5 (Device Configure) successful. Connected to wireless network "ITMO-Corp"
+Sep 21 18:12:18 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695319938.4345] device (p2p-dev-wlo1): supplicant management interface state: 4-way handshake -> completed
+Sep 21 18:12:18 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695319938.4348] device (wlo1): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Sep 21 18:12:18 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695319938.4354] dhcp4 (wlo1): activation: beginning transaction (timeout in 45 seconds)
+Sep 21 18:12:18 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695319938.4640] dhcp4 (wlo1): option dhcp_lease_time      => '172800'
+Sep 21 18:12:18 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695319938.4641] dhcp4 (wlo1): option domain_name_servers  => '172.28.16.1 77.234.194.2 77.234.216.3'
+Sep 21 18:12:18 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695319938.4641] dhcp4 (wlo1): option expiry               => '1695492738'
+Sep 21 18:12:18 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695319938.4641] dhcp4 (wlo1): option ip_address           => '172.28.26.215'
+Sep 21 18:12:18 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695319938.4641] dhcp4 (wlo1): option next_server          => '172.28.16.1'
+Sep 21 18:12:18 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695319938.4641] dhcp4 (wlo1): option ntp_servers          => '194.190.168.1 213.199.225.30'
+Sep 21 18:12:18 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695319938.4641] dhcp4 (wlo1): option requested_broadcast_address => '1'
+Sep 21 18:12:18 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695319938.4641] dhcp4 (wlo1): option requested_domain_name => '1'
+Sep 21 18:12:18 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695319938.4641] dhcp4 (wlo1): option requested_domain_name_servers => '1'
+Sep 21 18:12:18 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695319938.4641] dhcp4 (wlo1): option requested_domain_search => '1'
+Sep 21 18:12:18 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695319938.4641] dhcp4 (wlo1): option requested_host_name  => '1'
+Sep 21 18:12:18 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695319938.4641] dhcp4 (wlo1): option requested_interface_mtu => '1'
+Sep 21 18:12:18 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695319938.4642] dhcp4 (wlo1): option requested_ms_classless_static_routes => '1'
+Sep 21 18:12:18 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695319938.4642] dhcp4 (wlo1): option requested_nis_domain => '1'
+Sep 21 18:12:18 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695319938.4642] dhcp4 (wlo1): option requested_nis_servers => '1'
+Sep 21 18:12:18 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695319938.4642] dhcp4 (wlo1): option requested_ntp_servers => '1'
+Sep 21 18:12:18 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695319938.4642] dhcp4 (wlo1): option requested_rfc3442_classless_static_routes => '1'
+Sep 21 18:12:18 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695319938.4642] dhcp4 (wlo1): option requested_root_path  => '1'
+Sep 21 18:12:18 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695319938.4642] dhcp4 (wlo1): option requested_routers    => '1'
+Sep 21 18:12:18 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695319938.4642] dhcp4 (wlo1): option requested_static_routes => '1'
+Sep 21 18:12:18 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695319938.4642] dhcp4 (wlo1): option requested_subnet_mask => '1'
+Sep 21 18:12:18 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695319938.4642] dhcp4 (wlo1): option requested_time_offset => '1'
+Sep 21 18:12:18 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695319938.4642] dhcp4 (wlo1): option requested_wpad       => '1'
+Sep 21 18:12:18 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695319938.4642] dhcp4 (wlo1): option routers              => '172.28.16.1'
+Sep 21 18:12:18 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695319938.4642] dhcp4 (wlo1): option subnet_mask          => '255.255.240.0'
+Sep 21 18:12:18 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695319938.4643] dhcp4 (wlo1): state changed unknown -> bound
+Sep 21 18:12:18 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695319938.4654] device (wlo1): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Sep 21 18:12:18 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695319938.4679] device (wlo1): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Sep 21 18:12:18 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695319938.4681] device (wlo1): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Sep 21 18:12:18 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695319938.4686] manager: NetworkManager state is now CONNECTED_LOCAL
+Sep 21 18:12:18 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695319938.4703] manager: NetworkManager state is now CONNECTED_SITE
+Sep 21 18:12:18 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695319938.4705] policy: set 'ITMO-Corp' (wlo1) as default for IPv4 routing and DNS
+Sep 21 18:12:18 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695319938.4716] device (wlo1): Activation: successful, device activated.
+Sep 21 18:12:18 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695319938.6977] manager: NetworkManager state is now CONNECTED_GLOBAL
+Sep 21 18:12:36 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695319956.5519] agent-manager: agent[2cac6366c57a6e5f,:1.88/org.gnome.Shell.NetworkAgent/1000]: agent registered
+Sep 21 18:12:36 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695319956.9250] device (wlo1): supplicant interface state: completed -> authenticating
+Sep 21 18:12:36 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695319956.9250] device (p2p-dev-wlo1): supplicant management interface state: completed -> authenticating
+Sep 21 18:12:37 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695319957.3035] device (wlo1): supplicant interface state: authenticating -> disconnected
+Sep 21 18:12:37 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695319957.3035] device (p2p-dev-wlo1): supplicant management interface state: authenticating -> disconnected
+Sep 21 18:12:37 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695319957.4036] device (wlo1): supplicant interface state: disconnected -> scanning
+Sep 21 18:12:37 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695319957.4036] device (p2p-dev-wlo1): supplicant management interface state: disconnected -> scanning
+Sep 21 18:12:37 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695319957.6272] device (wlo1): supplicant interface state: scanning -> authenticating
+Sep 21 18:12:37 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695319957.6272] device (p2p-dev-wlo1): supplicant management interface state: scanning -> authenticating
+Sep 21 18:12:37 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695319957.6693] device (wlo1): supplicant interface state: authenticating -> associating
+Sep 21 18:12:37 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695319957.6694] device (p2p-dev-wlo1): supplicant management interface state: authenticating -> associating
+Sep 21 18:12:37 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695319957.6831] device (wlo1): supplicant interface state: associating -> associated
+Sep 21 18:12:37 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695319957.6832] device (p2p-dev-wlo1): supplicant management interface state: associating -> associated
+Sep 21 18:12:37 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695319957.7695] device (wlo1): supplicant interface state: associated -> 4-way handshake
+Sep 21 18:12:37 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695319957.7696] device (p2p-dev-wlo1): supplicant management interface state: associated -> 4-way handshake
+Sep 21 18:12:37 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695319957.8177] device (wlo1): supplicant interface state: 4-way handshake -> completed
+Sep 21 18:12:37 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695319957.8197] device (p2p-dev-wlo1): supplicant management interface state: 4-way handshake -> completed
+Sep 21 18:13:11 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695319991.0983] device (wlo1): supplicant interface state: completed -> authenticating
+Sep 21 18:13:11 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695319991.0984] device (p2p-dev-wlo1): supplicant management interface state: completed -> authenticating
+Sep 21 18:13:11 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695319991.2429] device (wlo1): supplicant interface state: authenticating -> associating
+Sep 21 18:13:11 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695319991.2430] device (p2p-dev-wlo1): supplicant management interface state: authenticating -> associating
+Sep 21 18:13:11 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695319991.2597] device (wlo1): supplicant interface state: associating -> associated
+Sep 21 18:13:11 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695319991.2598] device (p2p-dev-wlo1): supplicant management interface state: associating -> associated
+Sep 21 18:13:11 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695319991.3129] device (wlo1): supplicant interface state: associated -> completed
+Sep 21 18:13:11 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695319991.3146] device (p2p-dev-wlo1): supplicant management interface state: associated -> completed
+Sep 21 18:19:13 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695320353.0105] manager: sleep: sleep requested (sleeping: no  enabled: yes)
+Sep 21 18:19:13 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695320353.0107] device (enp3s0): state change: unavailable -> unmanaged (reason 'sleeping', sys-iface-state: 'managed')
+Sep 21 18:19:13 andrey-GF63-Thin-9SCXR ModemManager[1027]: <info>  [sleep-monitor] system is about to suspend
+Sep 21 18:19:13 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695320353.0215] device (p2p-dev-wlo1): state change: disconnected -> unmanaged (reason 'sleeping', sys-iface-state: 'managed')
+Sep 21 18:19:13 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695320353.0219] manager: NetworkManager state is now ASLEEP
+Sep 21 18:19:13 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695320353.0222] device (wlo1): state change: activated -> deactivating (reason 'sleeping', sys-iface-state: 'managed')
+Sep 21 18:19:13 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695320353.1780] device (wlo1): state change: deactivating -> disconnected (reason 'sleeping', sys-iface-state: 'managed')
+Sep 21 18:19:13 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695320353.1999] dhcp4 (wlo1): canceled DHCP transaction
+Sep 21 18:19:13 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695320353.2000] dhcp4 (wlo1): state changed bound -> done
+Sep 21 18:19:13 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695320353.2161] device (wlo1): supplicant interface state: completed -> disconnected
+Sep 21 18:19:13 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695320353.2165] device (wlo1): state change: disconnected -> unmanaged (reason 'sleeping', sys-iface-state: 'managed')
+Sep 21 18:40:14 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695321614.5515] manager: sleep: wake requested (sleeping: yes  enabled: yes)
+Sep 21 18:40:14 andrey-GF63-Thin-9SCXR ModemManager[1027]: <info>  [sleep-monitor] system is resuming
+Sep 21 18:40:14 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695321614.5517] device (enp3s0): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'managed')
+Sep 21 18:40:14 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695321614.7844] device (wlo1): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'managed')
+Sep 21 18:40:14 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695321614.9897] device (p2p-dev-wlo1): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'managed')
+Sep 21 18:40:14 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695321614.9904] manager: NetworkManager state is now CONNECTED_LOCAL
+Sep 21 18:40:15 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695321615.0623] sup-iface[0x56176b21fae0,wlo1]: supports 5 scan SSIDs
+Sep 21 18:40:15 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695321615.0632] device (wlo1): supplicant interface state: starting -> ready
+Sep 21 18:40:15 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695321615.0633] device (p2p-dev-wlo1): state change: unavailable -> disconnected (reason 'supplicant-available', sys-iface-state: 'managed')
+Sep 21 18:40:15 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695321615.0637] device (wlo1): state change: unavailable -> disconnected (reason 'supplicant-available', sys-iface-state: 'managed')
+Sep 21 18:40:17 andrey-GF63-Thin-9SCXR ModemManager[1027]: <info>  [base-manager] couldn't check support for device '/sys/devices/pci0000:00/0000:00:14.3': not supported by any plugin
+Sep 21 18:40:17 andrey-GF63-Thin-9SCXR ModemManager[1027]: <info>  [base-manager] couldn't check support for device '/sys/devices/pci0000:00/0000:00:1d.4/0000:03:00.0': not supported by any plugin
+Sep 21 18:40:18 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695321618.2899] policy: auto-activating connection 'ITMO-Corp' (d678e94b-a61d-4685-9448-828252c5a3e1)
+Sep 21 18:40:18 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695321618.2906] device (wlo1): Activation: starting connection 'ITMO-Corp' (d678e94b-a61d-4685-9448-828252c5a3e1)
+Sep 21 18:40:18 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695321618.2907] device (wlo1): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Sep 21 18:40:18 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695321618.2911] manager: NetworkManager state is now CONNECTING
+Sep 21 18:40:18 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695321618.2915] device (wlo1): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Sep 21 18:40:18 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695321618.2918] device (wlo1): Activation: (wifi) access point 'ITMO-Corp' has security, but secrets are required.
+Sep 21 18:40:18 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695321618.2918] device (wlo1): state change: config -> need-auth (reason 'none', sys-iface-state: 'managed')
+Sep 21 18:40:18 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695321618.2960] device (wlo1): state change: need-auth -> prepare (reason 'none', sys-iface-state: 'managed')
+Sep 21 18:40:18 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695321618.2967] device (wlo1): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Sep 21 18:40:18 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695321618.2972] device (wlo1): Activation: (wifi) connection 'ITMO-Corp' has security, and secrets exist.  No new secrets needed.
+Sep 21 18:40:18 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695321618.2973] Config: added 'ssid' value 'ITMO-Corp'
+Sep 21 18:40:18 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695321618.2973] Config: added 'scan_ssid' value '1'
+Sep 21 18:40:18 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695321618.2974] Config: added 'bgscan' value 'simple:30:-65:300'
+Sep 21 18:40:18 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695321618.2974] Config: added 'key_mgmt' value 'WPA-EAP WPA-EAP-SHA256 FT-EAP FT-EAP-SHA384'
+Sep 21 18:40:18 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695321618.2974] Config: added 'auth_alg' value 'OPEN'
+Sep 21 18:40:18 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695321618.2975] Config: added 'password' value '<hidden>'
+Sep 21 18:40:18 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695321618.2975] Config: added 'eap' value 'TTLS'
+Sep 21 18:40:18 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695321618.2975] Config: added 'fragment_size' value '1266'
+Sep 21 18:40:18 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695321618.2975] Config: added 'phase2' value 'auth=MSCHAPV2'
+Sep 21 18:40:18 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695321618.2975] Config: added 'identity' value '367384'
+Sep 21 18:40:18 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695321618.2976] Config: added 'proactive_key_caching' value '1'
+Sep 21 18:40:18 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695321618.3160] device (wlo1): supplicant interface state: ready -> authenticating
+Sep 21 18:40:18 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695321618.3160] device (p2p-dev-wlo1): supplicant management interface state: ready -> authenticating
+Sep 21 18:40:18 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695321618.3582] device (wlo1): supplicant interface state: authenticating -> associating
+Sep 21 18:40:18 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695321618.3583] device (p2p-dev-wlo1): supplicant management interface state: authenticating -> associating
+Sep 21 18:40:18 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695321618.3705] device (wlo1): supplicant interface state: associating -> associated
+Sep 21 18:40:18 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695321618.3706] device (p2p-dev-wlo1): supplicant management interface state: associating -> associated
+Sep 21 18:40:21 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695321621.6045] device (wlo1): supplicant interface state: associated -> completed
+Sep 21 18:40:21 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695321621.6046] device (wlo1): Activation: (wifi) Stage 2 of 5 (Device Configure) successful. Connected to wireless network "ITMO-Corp"
+Sep 21 18:40:21 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695321621.6047] device (p2p-dev-wlo1): supplicant management interface state: associated -> completed
+Sep 21 18:40:21 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695321621.6053] device (wlo1): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Sep 21 18:40:21 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695321621.6066] dhcp4 (wlo1): activation: beginning transaction (timeout in 45 seconds)
+Sep 21 18:40:21 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695321621.6276] dhcp4 (wlo1): option dhcp_lease_time      => '172800'
+Sep 21 18:40:21 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695321621.6277] dhcp4 (wlo1): option domain_name_servers  => '172.28.16.1 77.234.194.2 77.234.216.3'
+Sep 21 18:40:21 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695321621.6278] dhcp4 (wlo1): option expiry               => '1695494421'
+Sep 21 18:40:21 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695321621.6278] dhcp4 (wlo1): option ip_address           => '172.28.26.215'
+Sep 21 18:40:21 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695321621.6279] dhcp4 (wlo1): option next_server          => '172.28.16.1'
+Sep 21 18:40:21 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695321621.6279] dhcp4 (wlo1): option ntp_servers          => '194.190.168.1 213.199.225.30'
+Sep 21 18:40:21 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695321621.6279] dhcp4 (wlo1): option requested_broadcast_address => '1'
+Sep 21 18:40:21 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695321621.6280] dhcp4 (wlo1): option requested_domain_name => '1'
+Sep 21 18:40:21 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695321621.6280] dhcp4 (wlo1): option requested_domain_name_servers => '1'
+Sep 21 18:40:21 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695321621.6280] dhcp4 (wlo1): option requested_domain_search => '1'
+Sep 21 18:40:21 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695321621.6281] dhcp4 (wlo1): option requested_host_name  => '1'
+Sep 21 18:40:21 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695321621.6281] dhcp4 (wlo1): option requested_interface_mtu => '1'
+Sep 21 18:40:21 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695321621.6281] dhcp4 (wlo1): option requested_ms_classless_static_routes => '1'
+Sep 21 18:40:21 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695321621.6282] dhcp4 (wlo1): option requested_nis_domain => '1'
+Sep 21 18:40:21 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695321621.6282] dhcp4 (wlo1): option requested_nis_servers => '1'
+Sep 21 18:40:21 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695321621.6282] dhcp4 (wlo1): option requested_ntp_servers => '1'
+Sep 21 18:40:21 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695321621.6283] dhcp4 (wlo1): option requested_rfc3442_classless_static_routes => '1'
+Sep 21 18:40:21 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695321621.6283] dhcp4 (wlo1): option requested_root_path  => '1'
+Sep 21 18:40:21 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695321621.6283] dhcp4 (wlo1): option requested_routers    => '1'
+Sep 21 18:40:21 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695321621.6283] dhcp4 (wlo1): option requested_static_routes => '1'
+Sep 21 18:40:21 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695321621.6284] dhcp4 (wlo1): option requested_subnet_mask => '1'
+Sep 21 18:40:21 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695321621.6284] dhcp4 (wlo1): option requested_time_offset => '1'
+Sep 21 18:40:21 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695321621.6284] dhcp4 (wlo1): option requested_wpad       => '1'
+Sep 21 18:40:21 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695321621.6285] dhcp4 (wlo1): option routers              => '172.28.16.1'
+Sep 21 18:40:21 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695321621.6285] dhcp4 (wlo1): option subnet_mask          => '255.255.240.0'
+Sep 21 18:40:21 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695321621.6286] dhcp4 (wlo1): state changed unknown -> bound
+Sep 21 18:40:21 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695321621.6361] device (wlo1): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Sep 21 18:40:21 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695321621.6794] device (wlo1): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Sep 21 18:40:21 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695321621.6799] device (wlo1): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Sep 21 18:40:21 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695321621.6809] manager: NetworkManager state is now CONNECTED_LOCAL
+Sep 21 18:40:21 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695321621.6847] manager: NetworkManager state is now CONNECTED_SITE
+Sep 21 18:40:21 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695321621.6850] policy: set 'ITMO-Corp' (wlo1) as default for IPv4 routing and DNS
+Sep 21 18:40:21 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695321621.6870] device (wlo1): Activation: successful, device activated.
+Sep 21 18:40:22 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695321622.1670] manager: NetworkManager state is now CONNECTED_GLOBAL
+Sep 21 18:40:45 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695321645.3405] agent-manager: agent[714b91bd53e06cc9,:1.88/org.gnome.Shell.NetworkAgent/1000]: agent registered
+Sep 21 18:45:41 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695321941.9199] manager: NetworkManager state is now CONNECTED_SITE
+Sep 21 18:45:42 andrey-GF63-Thin-9SCXR NetworkManager[958]: <info>  [1695321942.1896] manager: NetworkManager state is now CONNECTED_GLOBAL
