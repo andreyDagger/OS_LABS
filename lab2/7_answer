@@ -1,0 +1,3 @@
+PID=981 : CMDLine=/usr/bin/python3/usr/bin/networkd-dispatcher--run-startup-triggers : Read_bytes=0
+PID=985 : CMDLine=/usr/lib/policykit-1/polkitd--no-debug : Read_bytes=0
+PID=992 : CMDLine=/usr/sbin/rsyslogd-n-iNONE : Read_bytes=0

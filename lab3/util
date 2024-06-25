@@ -1,0 +1,4 @@
+for pid in $(ps a | awk {'if ($6 == "5_handler.sh") {print $1}'})
+do
+	sudo kill $pid
+done
